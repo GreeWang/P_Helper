@@ -18,6 +18,7 @@ from marker.settings import settings
 from marker.logger import configure_logging
 import traceback
 import json
+from green_work.main import green 
 
 configure_logging()
 
@@ -75,9 +76,12 @@ def main():
     parser.add_argument("--workers", type=int, default=5, help="Number of worker processes to use")
     parser.add_argument("--metadata_file", type=str, default=None, help="Metadata json file to use for filtering")
     parser.add_argument("--min_length", type=int, default=None, help="Minimum length of pdf to convert")
+    parser.add_argument("--current_path", type=str, help="Description of what this parameter does")
+
 
     args = parser.parse_args()
 
+    current_path = args.current_path
     in_folder = os.path.abspath(args.in_folder)
     out_folder = os.path.abspath(args.out_folder)
     files = [os.path.join(in_folder, f) for f in os.listdir(in_folder)]
@@ -137,7 +141,9 @@ def main():
 
     # Delete all CUDA tensors
     del model_lst
+    green(out_folder, current_path)
 
 
 if __name__ == "__main__":
     main()
+    
