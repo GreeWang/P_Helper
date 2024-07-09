@@ -1,12 +1,16 @@
 import requests
 
+def remove_asterisks(text):
+    return text.replace('*', '')
+
 def summarize_paper(api_key, api_url, paper_content):
     # Convert the filtered content from the dictionary into string form
-    paper_content_str = "\n\n".join([f"{key}: {value}" for key, value in paper_content.items()])
+    paper_content_str = "\n".join([f"{key}: {value}" for key, value in paper_content.items()])
+    # paper_content_str = remove_asterisks(paper_content_str)
 
     REQUIREMENT = """must answer in this structure:
-    title:[title (the text of the primary title, REMOVE ALL LINE BREAK AND *)],
-    summary: Research Object: The study focuses on [research object]. Main Content: The article explores [main content].
+    title:[title (the text of the primary title, REMOVE ALL LINE BREAK AND *)] summary: [research object] + [main content].
+    JUST like this FORMAT example: title: Sample Title summary: The research object is the effectiveness of the proposed method in the field of computer vision. The main content includes the comparison with other methods and the evaluation of the proposed method on benchmark datasets.
     requirements:
     MUST REMOVE all line breaks and *.
     use more short sentences.
@@ -16,10 +20,10 @@ def summarize_paper(api_key, api_url, paper_content):
     """
 
     TASK = f"""task:
-    MUST Summarize in no more than 75 words, so please choose more important parts to summarize.
+    MUST Summarize in no more than 75 words.
     Summarize the following article with emphasis on its research object and main content and method.
-    Ignore the unrelated parts (for example, why the author research on this question)
-    find out the paper's title
+    Ignore the unimportant parts 
+    find the paper's title
     {paper_content_str} 
     """
 
@@ -31,7 +35,6 @@ def summarize_paper(api_key, api_url, paper_content):
         'Authorization': f'Bearer {api_key}',
     }
 
-    # Set request data
     data = {
         'model': 'gemini-pro',  # Use the chat model
         'messages': [
@@ -47,6 +50,7 @@ def summarize_paper(api_key, api_url, paper_content):
     # Parse response
     if response.status_code == 200:
         result = response.json()
+        #print(result) #test
         return result
     else:
         print(f'Request failed, status code: {response.status_code}')

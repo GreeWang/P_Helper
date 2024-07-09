@@ -1,4 +1,8 @@
 import os
+def remove_asterisks(text):
+    text = text.replace('*', '')
+    text = text.replace('\n', '')
+    return text
 
 def parse_response_to_md(intro_picture_path, api_response, output_filename="output.md"):
     try:
@@ -6,6 +10,7 @@ def parse_response_to_md(intro_picture_path, api_response, output_filename="outp
             raise ValueError("API响应中 'choices' 为空或不存在。")
         
         content = api_response['choices'][0].get('message', {}).get('content', '').strip()
+        content = remove_asterisks(content)
         
         title_start = "title:"
         summary_start = "summary:"

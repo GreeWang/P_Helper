@@ -1,14 +1,20 @@
 import os
 
+def remove_asterisks(text):
+    text = text.replace('*', '')
+    text = text.replace('\n', '')
+    return text
+
 def parse_response_to_md(intro_picture_path, api_response, output_filename="output.md"):
     try:
         if not api_response.get('choices') or len(api_response['choices']) == 0:
             raise ValueError("API响应中 'choices' 为空或不存在。")
         
         content = api_response['choices'][0].get('message', {}).get('content', '').strip()
+        content = remove_asterisks(content)
         
         title_start = "标题："
-        summary_start = "主要内容："
+        summary_start = "摘要："
         
         title_index = content.lower().find(title_start)
         summary_index = content.lower().find(summary_start)

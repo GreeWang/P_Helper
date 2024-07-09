@@ -32,5 +32,5 @@ def green(folder, current_directory):
     git_origin('local_repo')
     
 #this is test   
-#green('/home/dongpeijie/workspace/marker/output_example', '/home/dongpeijie/workspace/marker')
+green('/home/dongpeijie/workspace/marker/output_example', '/home/dongpeijie/workspace/marker')
     
