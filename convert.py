@@ -139,9 +139,10 @@ def main():
 
         pool._worker_handler.terminate = worker_exit
 
+    #new by green
+    green(out_folder)
     # Delete all CUDA tensors
     del model_lst
-    green(out_folder, current_path)
 
 
 if __name__ == "__main__":

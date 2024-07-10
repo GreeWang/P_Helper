@@ -34,16 +34,16 @@ def get_relative_path_from_absolute(absolute_path, current_directory):
         current_directory += '/'
     
     if absolute_path.startswith(current_directory):
-        return absolute_path.replace(current_directory, '', 1)
+        return absolute_path.replace(current_directory, '/img/', 1)
     else:
         # 如果绝对路径不是以当前目录开始的，则返回原始绝对路径
         return absolute_path
 
-def get_picture_paths(content, path, current_directory):
-    png_names_list = extract_png_names(content)
+def get_picture_paths(content, path, replace_folder):
+    png_names = extract_png_names(content)
     png_paths_list = []
-    path1 = get_relative_path_from_absolute(path, current_directory)
-    for name in png_names_list:
+    path1 = get_relative_path_from_absolute(path, replace_folder)
+    for name in png_names:
         png_paths_list.append(f"{path1}/../{name}")
     return png_paths_list
 

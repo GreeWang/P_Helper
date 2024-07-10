@@ -27,5 +27,9 @@ def git_origin(local_path):
 
     origin = repo.remote(name='origin')
     origin.push()
+    
+    if os.path.exists(local_path):
+        shutil.rmtree(local_path)
+        print(f"Local path '{local_path}' has been deleted.")
 
-    print("Changes have been pushed to the remote repository.")
+    print("Changes have been pushed to the remote repository. PLZ check content on your remote repository.")
