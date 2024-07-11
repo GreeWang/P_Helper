@@ -1,0 +1,288 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "toc": [
+        {
+            "title": "Introduction",
+            "level": 0,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                307.44000244140625,
+                598.7930297851562,
+                0.0
+            ]
+        },
+        {
+            "title": "Related Work",
+            "level": 0,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 1,
+            "view_mode": "XYZ",
+            "view_pos": [
+                307.44000244140625,
+                588.3519897460938,
+                0.0
+            ]
+        },
+        {
+            "title": "Model Accuracy for INT4 Quantization",
+            "level": 0,
+            "is_closed": true,
+            "n_kids": 2,
+            "page_index": 2,
+            "view_mode": "XYZ",
+            "view_pos": [
+                55.44000244140625,
+                724.9390258789062,
+                0.0
+            ]
+        },
+        {
+            "title": "Quantization Algorithms and Training",
+            "level": 1,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 2,
+            "view_mode": "XYZ",
+            "view_pos": [
+                55.44000244140625,
+                711.10400390625,
+                0.0
+            ]
+        },
+        {
+            "title": "INT4 Quantization for Language Models",
+            "level": 1,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 2,
+            "view_mode": "XYZ",
+            "view_pos": [
+                55.44000244140625,
+                255.21798706054688,
+                0.0
+            ]
+        },
+        {
+            "title": "Highly Optimized INT4 Encoder Inference ",
+            "level": 0,
+            "is_closed": true,
+            "n_kids": 3,
+            "page_index": 2,
+            "view_mode": "XYZ",
+            "view_pos": [
+                307.44000244140625,
+                333.57000732421875,
+                0.0
+            ]
+        },
+        {
+            "title": "INT4 GEMM",
+            "level": 1,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 3,
+            "view_mode": "XYZ",
+            "view_pos": [
+                55.44000244140625,
+                470.95697021484375,
+                0.0
+            ]
+        },
+        {
+            "title": "Holistic Optimizations of End-to-end Inference",
+            "level": 1,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 3,
+            "view_mode": "XYZ",
+            "view_pos": [
+                307.44000244140625,
+                506.8219909667969,
+                0.0
+            ]
+        },
+        {
+            "title": "End-to-end Inference Performance Results",
+            "level": 1,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 4,
+            "view_mode": "XYZ",
+            "view_pos": [
+                307.44000244140625,
+                343.11602783203125,
+                0.0
+            ]
+        },
+        {
+            "title": "Failure Cases: Understanding the Quality Degradation of INT4 Decoder Models",
+            "level": 0,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 5,
+            "view_mode": "XYZ",
+            "view_pos": [
+                55.44000244140625,
+                268.2560119628906,
+                0.0
+            ]
+        },
+        {
+            "title": "Composability of INT4 Quantization",
+            "level": 0,
+            "is_closed": true,
+            "n_kids": 2,
+            "page_index": 7,
+            "view_mode": "XYZ",
+            "view_pos": [
+                55.44000244140625,
+                632.448974609375,
+                0.0
+            ]
+        },
+        {
+            "title": "Composing Semi-structured Pruning with INT4 ",
+            "level": 1,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 7,
+            "view_mode": "XYZ",
+            "view_pos": [
+                55.44000244140625,
+                502.2640075683594,
+                0.0
+            ]
+        },
+        {
+            "title": "Composing Layer-reduction with INT4",
+            "level": 1,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 7,
+            "view_mode": "XYZ",
+            "view_pos": [
+                307.44000244140625,
+                515.8709716796875,
+                0.0
+            ]
+        },
+        {
+            "title": "Discussion",
+            "level": 0,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 8,
+            "view_mode": "XYZ",
+            "view_pos": [
+                55.44000244140625,
+                137.99099731445312,
+                0.0
+            ]
+        },
+        {
+            "title": "Quantization Algorithms",
+            "level": 0,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 12,
+            "view_mode": "XYZ",
+            "view_pos": [
+                55.44000244140625,
+                724.9390258789062,
+                0.0
+            ]
+        },
+        {
+            "title": "Additional Experimental Details and Results",
+            "level": 0,
+            "is_closed": true,
+            "n_kids": 4,
+            "page_index": 12,
+            "view_mode": "XYZ",
+            "view_pos": [
+                55.44000244140625,
+                583.18798828125,
+                0.0
+            ]
+        },
+        {
+            "title": "Experimental Details for Section 3.2",
+            "level": 1,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 12,
+            "view_mode": "XYZ",
+            "view_pos": [
+                55.44000244140625,
+                561.5469970703125,
+                0.0
+            ]
+        },
+        {
+            "title": "MKQ-BERT Results",
+            "level": 1,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 12,
+            "view_mode": "XYZ",
+            "view_pos": [
+                55.44000244140625,
+                149.25100708007812,
+                0.0
+            ]
+        },
+        {
+            "title": "Sensitivity of Activation Quantization for GPT2",
+            "level": 1,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 13,
+            "view_mode": "XYZ",
+            "view_pos": [
+                55.44000244140625,
+                268.8909912109375,
+                0.0
+            ]
+        },
+        {
+            "title": "More Experiments on Composing Pruning and INT4",
+            "level": 1,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 13,
+            "view_mode": "XYZ",
+            "view_pos": [
+                55.44000244140625,
+                147.23300170898438,
+                0.0
+            ]
+        }
+    ],
+    "pages": 16,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 7,
+        "equations": {
+            "successful_ocr": 2,
+            "unsuccessful_ocr": 0,
+            "equations": 2
+        }
+    },
+    "postprocess_stats": {
+        "edit": {}
+    }
+}

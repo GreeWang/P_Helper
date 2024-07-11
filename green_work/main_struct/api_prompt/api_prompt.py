@@ -1,4 +1,5 @@
 import requests
+import time
 
 def remove_asterisks(text):
     return text.replace('*', '')
@@ -52,6 +53,10 @@ def summarize_paper(api_key, api_url, paper_content):
         result = response.json()
         #print(result) #test
         return result
+    elif response.status_code == 429:
+        print("Rate limit exceeded. Retrying after 30s...")
+        time.sleep(10)
+        return None
     else:
         print(f'Request failed, status code: {response.status_code}')
         print(response.text)

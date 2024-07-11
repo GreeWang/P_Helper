@@ -1,0 +1,379 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "toc": [
+        {
+            "title": "Introduction",
+            "level": 0,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                108.0,
+                242.6090087890625,
+                0.0
+            ]
+        },
+        {
+            "title": "Background",
+            "level": 0,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 2,
+            "view_mode": "XYZ",
+            "view_pos": [
+                108.0,
+                504.572021484375,
+                0.0
+            ]
+        },
+        {
+            "title": "QLoRA Finetuning",
+            "level": 0,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 3,
+            "view_mode": "XYZ",
+            "view_pos": [
+                108.0,
+                584.3059692382812,
+                0.0
+            ]
+        },
+        {
+            "title": "QLoRA vs. Standard Finetuning",
+            "level": 0,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 4,
+            "view_mode": "XYZ",
+            "view_pos": [
+                108.0,
+                170.9510040283203,
+                0.0
+            ]
+        },
+        {
+            "title": "Pushing the Chatbot State-of-the-art with QLoRA",
+            "level": 0,
+            "is_closed": true,
+            "n_kids": 3,
+            "page_index": 6,
+            "view_mode": "XYZ",
+            "view_pos": [
+                108.0,
+                131.9879913330078,
+                0.0
+            ]
+        },
+        {
+            "title": "Experimental setup",
+            "level": 1,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 7,
+            "view_mode": "XYZ",
+            "view_pos": [
+                108.0,
+                566.8569946289062,
+                0.0
+            ]
+        },
+        {
+            "title": "Evaluation",
+            "level": 1,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 7,
+            "view_mode": "XYZ",
+            "view_pos": [
+                108.0,
+                270.9239807128906,
+                0.0
+            ]
+        },
+        {
+            "title": "Guanaco: QLoRA trained on OASST1 is a State-of-the-art Chatbot",
+            "level": 1,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 8,
+            "view_mode": "XYZ",
+            "view_pos": [
+                108.0,
+                275.5740051269531,
+                0.0
+            ]
+        },
+        {
+            "title": "Qualitative Analysis",
+            "level": 0,
+            "is_closed": true,
+            "n_kids": 2,
+            "page_index": 9,
+            "view_mode": "XYZ",
+            "view_pos": [
+                108.0,
+                151.03599548339844,
+                0.0
+            ]
+        },
+        {
+            "title": "Qualitative Analysis of Example Generations",
+            "level": 1,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 10,
+            "view_mode": "XYZ",
+            "view_pos": [
+                108.0,
+                469.4010009765625,
+                0.0
+            ]
+        },
+        {
+            "title": "Considerations",
+            "level": 1,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 13,
+            "view_mode": "XYZ",
+            "view_pos": [
+                108.0,
+                639.115966796875,
+                0.0
+            ]
+        },
+        {
+            "title": "Related Work",
+            "level": 0,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 13,
+            "view_mode": "XYZ",
+            "view_pos": [
+                108.0,
+                285.2480163574219,
+                0.0
+            ]
+        },
+        {
+            "title": "Limitations and Discussion",
+            "level": 0,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 14,
+            "view_mode": "XYZ",
+            "view_pos": [
+                108.0,
+                402.0769958496094,
+                0.0
+            ]
+        },
+        {
+            "title": "Broader Impacts",
+            "level": 0,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 15,
+            "view_mode": "XYZ",
+            "view_pos": [
+                108.0,
+                628.0050048828125,
+                0.0
+            ]
+        },
+        {
+            "title": "QLoRA vs Standard Finetuning Experimental Setup Details",
+            "level": 0,
+            "is_closed": true,
+            "n_kids": 2,
+            "page_index": 21,
+            "view_mode": "XYZ",
+            "view_pos": [
+                108.0,
+                720.0,
+                0.0
+            ]
+        },
+        {
+            "title": "Hyperparameters for QLoRA",
+            "level": 1,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 21,
+            "view_mode": "XYZ",
+            "view_pos": [
+                108.0,
+                706.8569946289062,
+                0.0
+            ]
+        },
+        {
+            "title": "Super-Natural Instructions Experimental Setup Details",
+            "level": 1,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 21,
+            "view_mode": "XYZ",
+            "view_pos": [
+                108.0,
+                405.3609924316406,
+                0.0
+            ]
+        },
+        {
+            "title": "Training a State-of-the-art Chatbot Experimental Setup Details",
+            "level": 0,
+            "is_closed": true,
+            "n_kids": 4,
+            "page_index": 21,
+            "view_mode": "XYZ",
+            "view_pos": [
+                108.0,
+                313.93798828125,
+                0.0
+            ]
+        },
+        {
+            "title": "Datasets",
+            "level": 1,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 21,
+            "view_mode": "XYZ",
+            "view_pos": [
+                108.0,
+                291.9209899902344,
+                0.0
+            ]
+        },
+        {
+            "title": "Hyperparameters",
+            "level": 1,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 22,
+            "view_mode": "XYZ",
+            "view_pos": [
+                108.0,
+                265.9129943847656,
+                0.0
+            ]
+        },
+        {
+            "title": "Ablations",
+            "level": 1,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 22,
+            "view_mode": "XYZ",
+            "view_pos": [
+                108.0,
+                135.7639923095703,
+                0.0
+            ]
+        },
+        {
+            "title": "What is more important: instruction finetuning dataset size or dataset quality?",
+            "level": 1,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 23,
+            "view_mode": "XYZ",
+            "view_pos": [
+                108.0,
+                613.8509521484375,
+                0.0
+            ]
+        },
+        {
+            "title": "Human Evaluation",
+            "level": 0,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 23,
+            "view_mode": "XYZ",
+            "view_pos": [
+                108.0,
+                500.39898681640625,
+                0.0
+            ]
+        },
+        {
+            "title": "Pairwise Evaluation with GPT-4",
+            "level": 0,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 23,
+            "view_mode": "XYZ",
+            "view_pos": [
+                108.0,
+                448.1889953613281,
+                0.0
+            ]
+        },
+        {
+            "title": "NormalFloat 4-bit data type",
+            "level": 0,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 23,
+            "view_mode": "XYZ",
+            "view_pos": [
+                108.0,
+                352.3420104980469,
+                0.0
+            ]
+        },
+        {
+            "title": "Normality of Trained Neural Network Weights",
+            "level": 0,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 23,
+            "view_mode": "XYZ",
+            "view_pos": [
+                108.0,
+                251.1800079345703,
+                0.0
+            ]
+        },
+        {
+            "title": "Memory Footprint",
+            "level": 0,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 25,
+            "view_mode": "XYZ",
+            "view_pos": [
+                108.0,
+                431.01300048828125,
+                0.0
+            ]
+        }
+    ],
+    "pages": 26,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 9,
+        "equations": {
+            "successful_ocr": 10,
+            "unsuccessful_ocr": 1,
+            "equations": 11
+        }
+    },
+    "postprocess_stats": {
+        "edit": {}
+    }
+}

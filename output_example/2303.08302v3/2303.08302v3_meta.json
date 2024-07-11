@@ -1,0 +1,184 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "toc": [
+        {
+            "title": "Introduction",
+            "level": 0,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                72.0,
+                372.14801025390625,
+                0.0
+            ]
+        },
+        {
+            "title": "Related Work",
+            "level": 0,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 2,
+            "view_mode": "XYZ",
+            "view_pos": [
+                72.0,
+                584.9409790039062,
+                0.0
+            ]
+        },
+        {
+            "title": "Would different model families behave similarly on quantization?",
+            "level": 0,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 2,
+            "view_mode": "XYZ",
+            "view_pos": [
+                72.0,
+                219.89999389648438,
+                0.0
+            ]
+        },
+        {
+            "title": "Are existing quantization methods optimally harnessing the potential to minimize LLMs sizes?",
+            "level": 0,
+            "is_closed": true,
+            "n_kids": 1,
+            "page_index": 4,
+            "view_mode": "XYZ",
+            "view_pos": [
+                72.0,
+                524.7080078125,
+                0.0
+            ]
+        },
+        {
+            "title": "Fine-grained Quantization and Its Evaluation",
+            "level": 1,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 6,
+            "view_mode": "XYZ",
+            "view_pos": [
+                72.0,
+                546.8140258789062,
+                0.0
+            ]
+        },
+        {
+            "title": "Proposed Method to Further Push the Limit of Post-training Quantization",
+            "level": 0,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 7,
+            "view_mode": "XYZ",
+            "view_pos": [
+                72.0,
+                409.6190185546875,
+                0.0
+            ]
+        },
+        {
+            "title": "Discussion",
+            "level": 0,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 9,
+            "view_mode": "XYZ",
+            "view_pos": [
+                72.0,
+                499.72601318359375,
+                0.0
+            ]
+        },
+        {
+            "title": "Background of Quantization",
+            "level": 0,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 13,
+            "view_mode": "XYZ",
+            "view_pos": [
+                72.0,
+                720.0,
+                0.0
+            ]
+        },
+        {
+            "title": "Detailed Setting Used in Section 4",
+            "level": 0,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 13,
+            "view_mode": "XYZ",
+            "view_pos": [
+                72.0,
+                488.4029846191406,
+                0.0
+            ]
+        },
+        {
+            "title": "Best PTQ Methods with Per-row Quantization",
+            "level": 0,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 14,
+            "view_mode": "XYZ",
+            "view_pos": [
+                72.0,
+                410.1710205078125,
+                0.0
+            ]
+        },
+        {
+            "title": "Quantization-aware training with LoRC",
+            "level": 0,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 14,
+            "view_mode": "XYZ",
+            "view_pos": [
+                72.0,
+                353.4729919433594,
+                0.0
+            ]
+        },
+        {
+            "title": "Tables and Figures",
+            "level": 0,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 15,
+            "view_mode": "XYZ",
+            "view_pos": [
+                72.0,
+                270.2820129394531,
+                0.0
+            ]
+        }
+    ],
+    "pages": 24,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 25,
+        "equations": {
+            "successful_ocr": 0,
+            "unsuccessful_ocr": 0,
+            "equations": 0
+        }
+    },
+    "postprocess_stats": {
+        "edit": {}
+    }
+}

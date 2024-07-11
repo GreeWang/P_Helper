@@ -1,0 +1,444 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "toc": [
+        {
+            "title": "1 Introduction",
+            "level": 0,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                108.0,
+                214.69200134277344,
+                0.0
+            ]
+        },
+        {
+            "title": "2 Preliminaries",
+            "level": 0,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 1,
+            "view_mode": "XYZ",
+            "view_pos": [
+                108.0,
+                128.4219970703125,
+                0.0
+            ]
+        },
+        {
+            "title": "3 Outlier analysis",
+            "level": 0,
+            "is_closed": false,
+            "n_kids": 2,
+            "page_index": 2,
+            "view_mode": "XYZ",
+            "view_pos": [
+                108.0,
+                442.9889831542969,
+                0.0
+            ]
+        },
+        {
+            "title": "3.1 Inducement of outliers",
+            "level": 1,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 2,
+            "view_mode": "XYZ",
+            "view_pos": [
+                108.0,
+                286.5760192871094,
+                0.0
+            ]
+        },
+        {
+            "title": "3.2 Impact of outlier clipping",
+            "level": 1,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 3,
+            "view_mode": "XYZ",
+            "view_pos": [
+                108.0,
+                440.2440185546875,
+                0.0
+            ]
+        },
+        {
+            "title": "4 Method",
+            "level": 0,
+            "is_closed": false,
+            "n_kids": 2,
+            "page_index": 4,
+            "view_mode": "XYZ",
+            "view_pos": [
+                108.0,
+                655.7730102539062,
+                0.0
+            ]
+        },
+        {
+            "title": "4.1 Gamma Migration",
+            "level": 1,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 4,
+            "view_mode": "XYZ",
+            "view_pos": [
+                108.0,
+                573.425048828125,
+                0.0
+            ]
+        },
+        {
+            "title": "4.2 Token-Wise Clipping",
+            "level": 1,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 5,
+            "view_mode": "XYZ",
+            "view_pos": [
+                108.0,
+                518.0599975585938,
+                0.0
+            ]
+        },
+        {
+            "title": "5 Experiments",
+            "level": 0,
+            "is_closed": false,
+            "n_kids": 6,
+            "page_index": 6,
+            "view_mode": "XYZ",
+            "view_pos": [
+                108.0,
+                494.6440124511719,
+                0.0
+            ]
+        },
+        {
+            "title": "5.1 Experimental setup",
+            "level": 1,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 6,
+            "view_mode": "XYZ",
+            "view_pos": [
+                108.0,
+                384.91998291015625,
+                0.0
+            ]
+        },
+        {
+            "title": "5.2 Ablation Study",
+            "level": 1,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 6,
+            "view_mode": "XYZ",
+            "view_pos": [
+                108.0,
+                211.00999450683594,
+                0.0
+            ]
+        },
+        {
+            "title": "5.3 Main Results",
+            "level": 1,
+            "is_closed": false,
+            "n_kids": 3,
+            "page_index": 7,
+            "view_mode": "XYZ",
+            "view_pos": [
+                108.0,
+                598.615966796875,
+                0.0
+            ]
+        },
+        {
+            "title": "5.3.1 Results on classification tasks",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 7,
+            "view_mode": "XYZ",
+            "view_pos": [
+                108.0,
+                582.72705078125,
+                0.0
+            ]
+        },
+        {
+            "title": "5.3.2 Results on question answering tasks",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 8,
+            "view_mode": "XYZ",
+            "view_pos": [
+                108.0,
+                355.32598876953125,
+                0.0
+            ]
+        },
+        {
+            "title": "5.3.3 Results on summarization tasks",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 8,
+            "view_mode": "XYZ",
+            "view_pos": [
+                108.0,
+                280.61602783203125,
+                0.0
+            ]
+        },
+        {
+            "title": "6 Conclusions and Discussions of Limitations",
+            "level": 0,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 9,
+            "view_mode": "XYZ",
+            "view_pos": [
+                108.0,
+                619.8150024414062,
+                0.0
+            ]
+        },
+        {
+            "title": "A Supplementary illustration of Gamma Migration",
+            "level": 0,
+            "is_closed": false,
+            "n_kids": 2,
+            "page_index": 13,
+            "view_mode": "XYZ",
+            "view_pos": [
+                108.0,
+                637.4750366210938,
+                0.0
+            ]
+        },
+        {
+            "title": "A.1 Proof of equivalent transformation",
+            "level": 1,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 13,
+            "view_mode": "XYZ",
+            "view_pos": [
+                108.0,
+                550.5970458984375,
+                0.0
+            ]
+        },
+        {
+            "title": "A.2 Gamma Migration on other structures",
+            "level": 1,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 13,
+            "view_mode": "XYZ",
+            "view_pos": [
+                108.0,
+                325.8949890136719,
+                0.0
+            ]
+        },
+        {
+            "title": "B Quantization nodes",
+            "level": 0,
+            "is_closed": false,
+            "n_kids": 2,
+            "page_index": 14,
+            "view_mode": "XYZ",
+            "view_pos": [
+                108.0,
+                530.7900390625,
+                0.0
+            ]
+        },
+        {
+            "title": "B.1 Position of quantization nodes",
+            "level": 1,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 14,
+            "view_mode": "XYZ",
+            "view_pos": [
+                108.0,
+                512.0230102539062,
+                0.0
+            ]
+        },
+        {
+            "title": "B.2 Problematic quantization nodes",
+            "level": 1,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 14,
+            "view_mode": "XYZ",
+            "view_pos": [
+                108.0,
+                263.1720275878906,
+                0.0
+            ]
+        },
+        {
+            "title": "C Analysis of outliers",
+            "level": 0,
+            "is_closed": false,
+            "n_kids": 2,
+            "page_index": 16,
+            "view_mode": "XYZ",
+            "view_pos": [
+                108.0,
+                145.6110076904297,
+                0.0
+            ]
+        },
+        {
+            "title": "C.1 Outlier phenomenon",
+            "level": 1,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 16,
+            "view_mode": "XYZ",
+            "view_pos": [
+                108.0,
+                116.91999816894531,
+                0.0
+            ]
+        },
+        {
+            "title": "C.2 Detailed discussion about the inducement",
+            "level": 1,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 17,
+            "view_mode": "XYZ",
+            "view_pos": [
+                108.0,
+                450.49298095703125,
+                0.0
+            ]
+        },
+        {
+            "title": "D Supplementary experiments",
+            "level": 0,
+            "is_closed": false,
+            "n_kids": 4,
+            "page_index": 18,
+            "view_mode": "XYZ",
+            "view_pos": [
+                108.0,
+                574.5140380859375,
+                0.0
+            ]
+        },
+        {
+            "title": "D.1 Supplementary evidence of outliers in LayerNorm",
+            "level": 1,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 18,
+            "view_mode": "XYZ",
+            "view_pos": [
+                108.0,
+                542.1940307617188,
+                0.0
+            ]
+        },
+        {
+            "title": "D.2 Supplementary evidence of clipping impact",
+            "level": 1,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 18,
+            "view_mode": "XYZ",
+            "view_pos": [
+                108.0,
+                429.7229919433594,
+                0.0
+            ]
+        },
+        {
+            "title": "D.3 Comparisons among Token-Wise Clipping and existing methods",
+            "level": 1,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 19,
+            "view_mode": "XYZ",
+            "view_pos": [
+                108.0,
+                326.6390075683594,
+                0.0
+            ]
+        },
+        {
+            "title": "D.4 Supplementary results of QAT",
+            "level": 1,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 19,
+            "view_mode": "XYZ",
+            "view_pos": [
+                108.0,
+                117.15900421142578,
+                0.0
+            ]
+        },
+        {
+            "title": "E Supplementary related works",
+            "level": 0,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 20,
+            "view_mode": "XYZ",
+            "view_pos": [
+                108.0,
+                180.81700134277344,
+                0.0
+            ]
+        },
+        {
+            "title": "F Supplementary implementation details",
+            "level": 0,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 21,
+            "view_mode": "XYZ",
+            "view_pos": [
+                108.0,
+                449.0069885253906,
+                0.0
+            ]
+        }
+    ],
+    "pages": 23,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 1,
+        "table": 14,
+        "equations": {
+            "successful_ocr": 12,
+            "unsuccessful_ocr": 0,
+            "equations": 12
+        }
+    },
+    "postprocess_stats": {
+        "edit": {}
+    }
+}

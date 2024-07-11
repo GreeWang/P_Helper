@@ -1,0 +1,314 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "toc": [
+        {
+            "title": "Introduction",
+            "level": 0,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                108.13499450683594,
+                278.1556701660156,
+                0.0
+            ]
+        },
+        {
+            "title": "Background",
+            "level": 0,
+            "is_closed": true,
+            "n_kids": 3,
+            "page_index": 2,
+            "view_mode": "XYZ",
+            "view_pos": [
+                108.13499450683594,
+                681.1812744140625,
+                0.0
+            ]
+        },
+        {
+            "title": "GPU-Accelerated Generative LMs",
+            "level": 1,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 2,
+            "view_mode": "XYZ",
+            "view_pos": [
+                108.13499450683594,
+                653.116455078125,
+                0.0
+            ]
+        },
+        {
+            "title": "Quantization Methods and Limitations",
+            "level": 1,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 2,
+            "view_mode": "XYZ",
+            "view_pos": [
+                108.13499450683594,
+                498.3382568359375,
+                0.0
+            ]
+        },
+        {
+            "title": "Binary-Coding Quantization",
+            "level": 1,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 3,
+            "view_mode": "XYZ",
+            "view_pos": [
+                108.13499450683594,
+                613.488525390625,
+                0.0
+            ]
+        },
+        {
+            "title": "Design Methodology of LUT-GEMM",
+            "level": 0,
+            "is_closed": true,
+            "n_kids": 4,
+            "page_index": 3,
+            "view_mode": "XYZ",
+            "view_pos": [
+                108.13499450683594,
+                477.50042724609375,
+                0.0
+            ]
+        },
+        {
+            "title": "LUT based Quantized Matrix Multiplication",
+            "level": 1,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 3,
+            "view_mode": "XYZ",
+            "view_pos": [
+                108.13499450683594,
+                272.8558044433594,
+                0.0
+            ]
+        },
+        {
+            "title": "LUT Based implementation on GPU",
+            "level": 1,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 4,
+            "view_mode": "XYZ",
+            "view_pos": [
+                108.13499450683594,
+                444.7380065917969,
+                0.0
+            ]
+        },
+        {
+            "title": "Representational Capability of LUT-GEMM",
+            "level": 1,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 4,
+            "view_mode": "XYZ",
+            "view_pos": [
+                108.13499450683594,
+                229.25296020507812,
+                0.0
+            ]
+        },
+        {
+            "title": "Latency-Accuracy Trade-Off for Improved Applicability",
+            "level": 1,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 5,
+            "view_mode": "XYZ",
+            "view_pos": [
+                108.13499450683594,
+                255.9928436279297,
+                0.0
+            ]
+        },
+        {
+            "title": "Experimental results",
+            "level": 0,
+            "is_closed": true,
+            "n_kids": 2,
+            "page_index": 6,
+            "view_mode": "XYZ",
+            "view_pos": [
+                108.13499450683594,
+                443.7744445800781,
+                0.0
+            ]
+        },
+        {
+            "title": "Kernel Evaluation",
+            "level": 1,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 6,
+            "view_mode": "XYZ",
+            "view_pos": [
+                108.13499450683594,
+                347.8962097167969,
+                0.0
+            ]
+        },
+        {
+            "title": "End-to-end latency",
+            "level": 1,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 7,
+            "view_mode": "XYZ",
+            "view_pos": [
+                108.13499450683594,
+                374.7565612792969,
+                0.0
+            ]
+        },
+        {
+            "title": "Accelerating Quantized OPT-175B",
+            "level": 0,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 8,
+            "view_mode": "XYZ",
+            "view_pos": [
+                108.13499450683594,
+                554.2271118164062,
+                0.0
+            ]
+        },
+        {
+            "title": "Summary and Limitations",
+            "level": 0,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 8,
+            "view_mode": "XYZ",
+            "view_pos": [
+                108.13499450683594,
+                145.78114318847656,
+                0.0
+            ]
+        },
+        {
+            "title": "Reproducibility Statement",
+            "level": 0,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 9,
+            "view_mode": "XYZ",
+            "view_pos": [
+                108.13499450683594,
+                531.2210693359375,
+                0.0
+            ]
+        },
+        {
+            "title": "LLM Inference Latency Breakdown",
+            "level": 0,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 14,
+            "view_mode": "XYZ",
+            "view_pos": [
+                108.13499450683594,
+                531.94384765625,
+                0.0
+            ]
+        },
+        {
+            "title": "Detailed Implementation",
+            "level": 0,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 14,
+            "view_mode": "XYZ",
+            "view_pos": [
+                108.13499450683594,
+                363.91607666015625,
+                0.0
+            ]
+        },
+        {
+            "title": "Conversion of Uniform Quantization into BCQ",
+            "level": 0,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 14,
+            "view_mode": "XYZ",
+            "view_pos": [
+                108.13499450683594,
+                175.53228759765625,
+                0.0
+            ]
+        },
+        {
+            "title": "Impact on Compression Ratio",
+            "level": 0,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 15,
+            "view_mode": "XYZ",
+            "view_pos": [
+                108.13499450683594,
+                456.7829895019531,
+                0.0
+            ]
+        },
+        {
+            "title": "Exploration of Compression Ratio",
+            "level": 0,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 15,
+            "view_mode": "XYZ",
+            "view_pos": [
+                108.13499450683594,
+                150.96044921875,
+                0.0
+            ]
+        },
+        {
+            "title": "Additional Experimental Results",
+            "level": 0,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 16,
+            "view_mode": "XYZ",
+            "view_pos": [
+                108.13499450683594,
+                412.0960693359375,
+                0.0
+            ]
+        }
+    ],
+    "pages": 19,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 19,
+        "code": 0,
+        "table": 9,
+        "equations": {
+            "successful_ocr": 7,
+            "unsuccessful_ocr": 2,
+            "equations": 9
+        }
+    },
+    "postprocess_stats": {
+        "edit": {}
+    }
+}

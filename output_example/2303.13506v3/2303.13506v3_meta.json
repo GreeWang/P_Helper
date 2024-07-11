@@ -1,0 +1,314 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "toc": [
+        {
+            "title": "Introduction",
+            "level": 0,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                108.0,
+                411.65399169921875,
+                0.0
+            ]
+        },
+        {
+            "title": "Theory",
+            "level": 0,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 2,
+            "view_mode": "XYZ",
+            "view_pos": [
+                108.0,
+                720.0,
+                0.0
+            ]
+        },
+        {
+            "title": "Proof of concept: a toy dataset",
+            "level": 0,
+            "is_closed": true,
+            "n_kids": 2,
+            "page_index": 3,
+            "view_mode": "XYZ",
+            "view_pos": [
+                108.0,
+                447.9120178222656,
+                0.0
+            ]
+        },
+        {
+            "title": "The ``multitask sparse parity'' dataset",
+            "level": 1,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 3,
+            "view_mode": "XYZ",
+            "view_pos": [
+                108.0,
+                349.22698974609375,
+                0.0
+            ]
+        },
+        {
+            "title": "Power law scaling and emergence",
+            "level": 1,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 4,
+            "view_mode": "XYZ",
+            "view_pos": [
+                108.0,
+                271.3349914550781,
+                0.0
+            ]
+        },
+        {
+            "title": "Decomposing LLM scaling laws",
+            "level": 0,
+            "is_closed": true,
+            "n_kids": 2,
+            "page_index": 5,
+            "view_mode": "XYZ",
+            "view_pos": [
+                108.0,
+                325.32098388671875,
+                0.0
+            ]
+        },
+        {
+            "title": "The distribution over per-token losses",
+            "level": 1,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 5,
+            "view_mode": "XYZ",
+            "view_pos": [
+                108.0,
+                216.27101135253906,
+                0.0
+            ]
+        },
+        {
+            "title": "Monogenic versus polygenic scaling curves",
+            "level": 1,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 6,
+            "view_mode": "XYZ",
+            "view_pos": [
+                108.0,
+                414.7850036621094,
+                0.0
+            ]
+        },
+        {
+            "title": "The quanta of language modeling",
+            "level": 0,
+            "is_closed": true,
+            "n_kids": 1,
+            "page_index": 7,
+            "view_mode": "XYZ",
+            "view_pos": [
+                108.0,
+                720.0,
+                0.0
+            ]
+        },
+        {
+            "title": "The natural distribution over language modeling quanta",
+            "level": 1,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 7,
+            "view_mode": "XYZ",
+            "view_pos": [
+                108.0,
+                199.4550018310547,
+                0.0
+            ]
+        },
+        {
+            "title": "Related Work",
+            "level": 0,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 8,
+            "view_mode": "XYZ",
+            "view_pos": [
+                108.0,
+                292.6700134277344,
+                0.0
+            ]
+        },
+        {
+            "title": "Discussion",
+            "level": 0,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 9,
+            "view_mode": "XYZ",
+            "view_pos": [
+                108.0,
+                586.7040405273438,
+                0.0
+            ]
+        },
+        {
+            "title": "More general scaling laws",
+            "level": 0,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 13,
+            "view_mode": "XYZ",
+            "view_pos": [
+                108.0,
+                701.010986328125,
+                0.0
+            ]
+        },
+        {
+            "title": "Additional results on multitask sparse parity",
+            "level": 0,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 13,
+            "view_mode": "XYZ",
+            "view_pos": [
+                108.0,
+                155.89500427246094,
+                0.0
+            ]
+        },
+        {
+            "title": "Additional results on language models",
+            "level": 0,
+            "is_closed": true,
+            "n_kids": 1,
+            "page_index": 16,
+            "view_mode": "XYZ",
+            "view_pos": [
+                108.0,
+                151.28799438476562,
+                0.0
+            ]
+        },
+        {
+            "title": "Details of application of QDG to LLMs",
+            "level": 1,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 17,
+            "view_mode": "XYZ",
+            "view_pos": [
+                108.0,
+                481.3739929199219,
+                0.0
+            ]
+        },
+        {
+            "title": "Quanta discovery on TinyStories",
+            "level": 0,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 17,
+            "view_mode": "XYZ",
+            "view_pos": [
+                108.0,
+                318.63299560546875,
+                0.0
+            ]
+        },
+        {
+            "title": "The difficulty of estimating the power law exponent from clusters",
+            "level": 0,
+            "is_closed": true,
+            "n_kids": 2,
+            "page_index": 18,
+            "view_mode": "XYZ",
+            "view_pos": [
+                108.0,
+                287.0979919433594,
+                0.0
+            ]
+        },
+        {
+            "title": "QDG on multitask sparse parity",
+            "level": 1,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 18,
+            "view_mode": "XYZ",
+            "view_pos": [
+                108.0,
+                216.63400268554688,
+                0.0
+            ]
+        },
+        {
+            "title": "A toy model of QDG uncertainty and bias",
+            "level": 1,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 19,
+            "view_mode": "XYZ",
+            "view_pos": [
+                108.0,
+                277.97900390625,
+                0.0
+            ]
+        },
+        {
+            "title": "Parameter and data scaling exponents across studies",
+            "level": 0,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 21,
+            "view_mode": "XYZ",
+            "view_pos": [
+                108.0,
+                456.39898681640625,
+                0.0
+            ]
+        },
+        {
+            "title": "Estimates of compute used for our experiments",
+            "level": 0,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 21,
+            "view_mode": "XYZ",
+            "view_pos": [
+                108.0,
+                357.6549987792969,
+                0.0
+            ]
+        }
+    ],
+    "pages": 24,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 1,
+        "equations": {
+            "successful_ocr": 5,
+            "unsuccessful_ocr": 0,
+            "equations": 5
+        }
+    },
+    "postprocess_stats": {
+        "edit": {}
+    }
+}

@@ -9,6 +9,8 @@ from green_work.main_struct.git_processor.git_to_romote import git_origin, git_p
 from green_work.translation.main import translating
 from green_work.translation.translation_order import need_translation
 
+import time
+
 def green(folder):
     api_key = 'sk-KYe0arAHXoNtKv77A98d28Cd1d314c6899Fe898a8b46Fe94'
     api_url = 'https://vip.yi-zhan.top/v1/chat/completions'
@@ -29,6 +31,7 @@ def green(folder):
             parse_response_to_md(intro_picture_path, result, temporary_path)
             if order:
                 translating(api_key, api_url, result, intro_picture_path, temporary_cn_path)
+            time.sleep(7)
         else:
             continue
         
@@ -36,5 +39,5 @@ def green(folder):
     git_origin('local_repo')
     
 #this is test   
-#green('/home/dongpeijie/workspace/marker/output_example')
+green('/home/dongpeijie/workspace/marker/output_example')
     

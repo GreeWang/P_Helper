@@ -7,21 +7,21 @@ def find_largest_resolusion_ratio(png_paths_list):
         return None
     
     biggest_path = png_paths_list[0]
+    return biggest_path
  
-    #分流器
-    if len(png_paths_list) == 1:
-        return biggest_path
+    # #分流器
+    # if len(png_paths_list) == 1:
+    #     return biggest_path
     
-    elif len(png_paths_list) > 1: 
-        for i in range(len(png_paths_list)):
-            biggest_image = Image.open(png_paths_list[0])
-            image = Image.open(png_paths_list[i])
-            if image.size <= biggest_image.size:#return a tuple
-                continue
-            else:
-                biggest_path = png_paths_list[i]
-                
-        return biggest_path   
+    # elif len(png_paths_list) > 1: 
+    #     for i in range(len(png_paths_list)):
+    #         biggest_image = Image.open(png_paths_list[0])
+    #         image = Image.open(png_paths_list[i])
+    #         if image.size <= biggest_image.size:#return a tuple
+    #             continue
+    #         else:
+    #             biggest_path = png_paths_list[i]
+                   
         
           
 # example:  
