@@ -3,7 +3,6 @@ marker input_example /home/dongpeijie/workspace/marker/output_example --max 16 -
 https://github.com/GreeWang/summer_reshearch_out_test.git
 
 
-/home/dongpeijie/workspace/marker
 
 
 

@@ -13,15 +13,15 @@ def summarize_paper(api_key, api_url, paper_content):
     title:[title (the text of the primary title, REMOVE ALL LINE BREAK AND *)] summary: [research object] + [main content].
     JUST like this FORMAT example: title: Sample Title summary: The research object is the effectiveness of the proposed method in the field of computer vision. The main content includes the comparison with other methods and the evaluation of the proposed method on benchmark datasets.
     requirements:
+    words limit: 50-120 words
     MUST REMOVE all line breaks and *.
-    use more short sentences.
+    use the least words to summarize. do not give me the detailed part of experiment.
     Try to avoid using the author and research team as the subject, and instead use the research object as the subject to intuitively and succinctly summarize their nature or characteristics.
     take a deep breath!
     Combine all the texts into one paragraph.
     """
 
     TASK = f"""task:
-    MUST Summarize in no more than 75 words.
     Summarize the following article with emphasis on its research object and main content and method.
     Ignore the unimportant parts 
     find the paper's title

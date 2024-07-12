@@ -12,9 +12,9 @@ from green_work.translation.translation_order import need_translation
 import time
 
 def green(folder):
-    api_key = 'sk-KYe0arAHXoNtKv77A98d28Cd1d314c6899Fe898a8b46Fe94'
-    api_url = 'https://vip.yi-zhan.top/v1/chat/completions'
-    repo_url = 'https://github.com/GreeWang/summer_reshearch_out_test.git'
+    api_key = 'your_api_key'
+    api_url = 'your_api_url'
+    repo_url = 'your_remote_repo_url'
     local_repo = 'local_repo'
     order = need_translation() 
     temporary_path, temporary_cn_path = git_pull(repo_url, local_repo)
@@ -39,5 +39,5 @@ def green(folder):
     git_origin('local_repo')
     
 #this is test   
-green('/home/dongpeijie/workspace/marker/output_example')
+#green('/home/dongpeijie/workspace/marker/output_example')
     

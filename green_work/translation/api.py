@@ -33,7 +33,7 @@ def translate_paper(api_key, api_url, api_response):
             {'role': 'system', 'content': IDENTITY},
             {'role': 'user', 'content': PROMPT}
         ],
-        'max_tokens': 250,
+        'max_tokens': 350,
     }
 
     # Send request
