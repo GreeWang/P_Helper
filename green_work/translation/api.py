@@ -3,7 +3,7 @@ import requests
 def translate_paper(api_key, api_url, api_response):
     # Convert the filtered content from the dictionary into string form
     content = api_response['choices'][0].get('message', {}).get('content', '').strip()
-    print(content)
+    #print(content)
     REQUIREMENT = """requirements:
     
     MUST return content like this format example: 标题：大语言模型的模型压缩技术 摘要：这篇调查报告全面概述了针对 LLM 的模型压缩技术，包括量化、剪枝、知识蒸馏和低秩分解。它探索了每种技术中的最新进展和创新方法，对现有工作进行分类，并讨论用于评估压缩 LLM 有效性的基准策略和评估指标。该论文强调了模型压缩对于提高 LLM 的效率和实际适用性的重要意义。
@@ -42,7 +42,7 @@ def translate_paper(api_key, api_url, api_response):
     # Parse response
     if response.status_code == 200:
         result = response.json()
-        print(result) #this is test
+        #print(result) #this is test
         return result
     else:
         print(f'Request failed, status code: {response.status_code}')
