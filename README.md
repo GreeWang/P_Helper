@@ -12,6 +12,11 @@ Device: Plz read README.md in [marker](https://github.com/VikParuchuri/marker)
 Model: text limit larger than 32k
 
 ### Procedure:
+In your terminal:
+```shell
+pip install marker-pdf
+```
+
 In your Github:
 - create a new repo.
 - create a README.md.
