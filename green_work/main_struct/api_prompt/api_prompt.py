@@ -7,10 +7,10 @@ def remove_asterisks(text):
 def summarize_paper(api_key, api_url, paper_content):
     # Convert the filtered content from the dictionary into string form
     paper_content_str = "\n".join([f"{key}: {value}" for key, value in paper_content.items()])
-    # paper_content_str = remove_asterisks(paper_content_str)
+    paper_content_str = remove_asterisks(paper_content_str)
 
     REQUIREMENT = """must answer in this structure:
-    title:[title (the text of the primary title, REMOVE ALL LINE BREAK AND *)] summary: [research object] + [main content].
+    title: [title (the text of the primary title(there is only one # in front of the title), DO NOT CHANGE ORIGINAL TITLE)] summary: [research object] + [main content].
     JUST like this FORMAT example: title: Sample Title summary: The research object is the effectiveness of the proposed method in the field of computer vision. The main content includes the comparison with other methods and the evaluation of the proposed method on benchmark datasets.
     requirements:
     words limit: 50-120 words
