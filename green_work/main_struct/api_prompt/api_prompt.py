@@ -51,7 +51,7 @@ def summarize_paper(api_key, api_url, paper_content):
     # Parse response
     if response.status_code == 200:
         result = response.json()
-        #print(result) #test
+        print(result) #test
         return result
     elif response.status_code == 429:
         print("Rate limit exceeded. Retrying after 30s...")

@@ -9,7 +9,7 @@ def git_pull(repo_url, local_path):
     
     os.makedirs(local_path)
 
-    repo = git.Repo.clone_from(repo_url, local_path)
+    git.Repo.clone_from(repo_url, local_path)
     print(f"Cloned repository from {repo_url} to {local_path}")
     
     readme_path = os.path.join(local_path, 'README.md')
