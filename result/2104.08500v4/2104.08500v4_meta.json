@@ -1,0 +1,171 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "toc": [
+        {
+            "title": "Abstract",
+            "level": 0,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                53.79800033569336,
+                623.924072265625,
+                0.0
+            ]
+        },
+        {
+            "title": "1 Introduction",
+            "level": 0,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                53.79800033569336,
+                383.15899658203125,
+                0.0
+            ]
+        },
+        {
+            "title": "2 Approach",
+            "level": 0,
+            "is_closed": false,
+            "n_kids": 2,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                317.9549865722656,
+                460.8639831542969,
+                0.0
+            ]
+        },
+        {
+            "title": "2.1 Transformer",
+            "level": 1,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                317.9549865722656,
+                447.1369934082031,
+                0.0
+            ]
+        },
+        {
+            "title": "2.2 Vision Transformer Pruning",
+            "level": 1,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                317.9549865722656,
+                186.43399047851562,
+                0.0
+            ]
+        },
+        {
+            "title": "3 Experiments",
+            "level": 0,
+            "is_closed": false,
+            "n_kids": 3,
+            "page_index": 1,
+            "view_mode": "XYZ",
+            "view_pos": [
+                317.9549865722656,
+                393.75,
+                0.0
+            ]
+        },
+        {
+            "title": "3.1 Datasets",
+            "level": 1,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 1,
+            "view_mode": "XYZ",
+            "view_pos": [
+                317.9549865722656,
+                342.5509948730469,
+                0.0
+            ]
+        },
+        {
+            "title": "3.2 Implementation Details",
+            "level": 1,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 1,
+            "view_mode": "XYZ",
+            "view_pos": [
+                317.9549865722656,
+                196.85800170898438,
+                0.0
+            ]
+        },
+        {
+            "title": "3.3 Results and Analysis",
+            "level": 1,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 2,
+            "view_mode": "XYZ",
+            "view_pos": [
+                53.79800033569336,
+                187.9119873046875,
+                0.0
+            ]
+        },
+        {
+            "title": "4 Conclusion",
+            "level": 0,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 2,
+            "view_mode": "XYZ",
+            "view_pos": [
+                317.9549865722656,
+                207.81700134277344,
+                0.0
+            ]
+        },
+        {
+            "title": "References",
+            "level": 0,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 3,
+            "view_mode": "XYZ",
+            "view_pos": [
+                53.79800033569336,
+                695.458984375,
+                0.0
+            ]
+        }
+    ],
+    "pages": 4,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 1,
+        "equations": {
+            "successful_ocr": 6,
+            "unsuccessful_ocr": 1,
+            "equations": 7
+        }
+    },
+    "postprocess_stats": {
+        "edit": {}
+    }
+}

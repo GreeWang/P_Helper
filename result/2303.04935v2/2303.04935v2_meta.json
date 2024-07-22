@@ -1,0 +1,223 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "toc": [
+        {
+            "title": ". Introduction",
+            "level": 0,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                50.111995697021484,
+                219.2469940185547,
+                0.0
+            ]
+        },
+        {
+            "title": ". Related Work",
+            "level": 0,
+            "is_closed": true,
+            "n_kids": 2,
+            "page_index": 1,
+            "view_mode": "XYZ",
+            "view_pos": [
+                308.86199951171875,
+                528.0900268554688,
+                0.0
+            ]
+        },
+        {
+            "title": ". Pruning for transformers",
+            "level": 1,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 1,
+            "view_mode": "XYZ",
+            "view_pos": [
+                308.86199951171875,
+                506.74102783203125,
+                0.0
+            ]
+        },
+        {
+            "title": ". XAI techniques for transformers",
+            "level": 1,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 2,
+            "view_mode": "XYZ",
+            "view_pos": [
+                50.111995697021484,
+                371.93798828125,
+                0.0
+            ]
+        },
+        {
+            "title": ". Methodology",
+            "level": 0,
+            "is_closed": true,
+            "n_kids": 2,
+            "page_index": 2,
+            "view_mode": "XYZ",
+            "view_pos": [
+                308.86199951171875,
+                416.1310119628906,
+                0.0
+            ]
+        },
+        {
+            "title": ". Problem definition",
+            "level": 1,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 2,
+            "view_mode": "XYZ",
+            "view_pos": [
+                308.86199951171875,
+                396.7610168457031,
+                0.0
+            ]
+        },
+        {
+            "title": ". The Proposed X-Pruner",
+            "level": 1,
+            "is_closed": true,
+            "n_kids": 2,
+            "page_index": 2,
+            "view_mode": "XYZ",
+            "view_pos": [
+                308.86199951171875,
+                166.8979949951172,
+                0.0
+            ]
+        },
+        {
+            "title": "Explainability-aware mask",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 2,
+            "view_mode": "XYZ",
+            "view_pos": [
+                308.86199951171875,
+                146.44699096679688,
+                0.0
+            ]
+        },
+        {
+            "title": "Explainable pruning",
+            "level": 2,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 3,
+            "view_mode": "XYZ",
+            "view_pos": [
+                308.86199951171875,
+                473.1199951171875,
+                0.0
+            ]
+        },
+        {
+            "title": ". Experiments",
+            "level": 0,
+            "is_closed": true,
+            "n_kids": 4,
+            "page_index": 4,
+            "view_mode": "XYZ",
+            "view_pos": [
+                50.111995697021484,
+                136.09500122070312,
+                0.0
+            ]
+        },
+        {
+            "title": ". Implementation details",
+            "level": 1,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 4,
+            "view_mode": "XYZ",
+            "view_pos": [
+                308.86199951171875,
+                615.4720458984375,
+                0.0
+            ]
+        },
+        {
+            "title": ". Main results",
+            "level": 1,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 4,
+            "view_mode": "XYZ",
+            "view_pos": [
+                308.86199951171875,
+                372.87298583984375,
+                0.0
+            ]
+        },
+        {
+            "title": ". Visualization and analysis",
+            "level": 1,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 5,
+            "view_mode": "XYZ",
+            "view_pos": [
+                50.111995697021484,
+                169.37501525878906,
+                0.0
+            ]
+        },
+        {
+            "title": ". Ablation studies",
+            "level": 1,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 5,
+            "view_mode": "XYZ",
+            "view_pos": [
+                308.86199951171875,
+                120.68599700927734,
+                0.0
+            ]
+        },
+        {
+            "title": ". Conclusion",
+            "level": 0,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 7,
+            "view_mode": "XYZ",
+            "view_pos": [
+                308.86199951171875,
+                308.2790222167969,
+                0.0
+            ]
+        }
+    ],
+    "pages": 9,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 4,
+        "equations": {
+            "successful_ocr": 16,
+            "unsuccessful_ocr": 0,
+            "equations": 16
+        }
+    },
+    "postprocess_stats": {
+        "edit": {}
+    }
+}

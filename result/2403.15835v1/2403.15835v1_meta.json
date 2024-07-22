@@ -1,0 +1,314 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "toc": [
+        {
+            "title": ". Introduction",
+            "level": 0,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 0,
+            "view_mode": "XYZ",
+            "view_pos": [
+                50.111995697021484,
+                165.0659942626953,
+                0.0
+            ]
+        },
+        {
+            "title": ". Related Works",
+            "level": 0,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 1,
+            "view_mode": "XYZ",
+            "view_pos": [
+                308.86199951171875,
+                253.74398803710938,
+                0.0
+            ]
+        },
+        {
+            "title": ". The Proposed Approach",
+            "level": 0,
+            "is_closed": true,
+            "n_kids": 4,
+            "page_index": 2,
+            "view_mode": "XYZ",
+            "view_pos": [
+                50.111995697021484,
+                323.2539978027344,
+                0.0
+            ]
+        },
+        {
+            "title": ". Problem Formulation",
+            "level": 1,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 2,
+            "view_mode": "XYZ",
+            "view_pos": [
+                50.111995697021484,
+                228.32400512695312,
+                0.0
+            ]
+        },
+        {
+            "title": ". Bi-mask Weight-sharing Strategy",
+            "level": 1,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 2,
+            "view_mode": "XYZ",
+            "view_pos": [
+                308.86199951171875,
+                117.85200500488281,
+                0.0
+            ]
+        },
+        {
+            "title": ". Adaptive One-hot Loss",
+            "level": 1,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 3,
+            "view_mode": "XYZ",
+            "view_pos": [
+                308.86199951171875,
+                121.93700408935547,
+                0.0
+            ]
+        },
+        {
+            "title": ". Progressive MIM",
+            "level": 1,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 4,
+            "view_mode": "XYZ",
+            "view_pos": [
+                308.86199951171875,
+                414.12799072265625,
+                0.0
+            ]
+        },
+        {
+            "title": ". Experiments",
+            "level": 0,
+            "is_closed": true,
+            "n_kids": 6,
+            "page_index": 5,
+            "view_mode": "XYZ",
+            "view_pos": [
+                50.111995697021484,
+                185.02700805664062,
+                0.0
+            ]
+        },
+        {
+            "title": ". Results on ImageNet",
+            "level": 1,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 5,
+            "view_mode": "XYZ",
+            "view_pos": [
+                308.86199951171875,
+                333.41900634765625,
+                0.0
+            ]
+        },
+        {
+            "title": ". Transfer Learning Results",
+            "level": 1,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 6,
+            "view_mode": "XYZ",
+            "view_pos": [
+                50.111995697021484,
+                268.1710205078125,
+                0.0
+            ]
+        },
+        {
+            "title": ". Ablation Study",
+            "level": 1,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 6,
+            "view_mode": "XYZ",
+            "view_pos": [
+                50.111995697021484,
+                119.24800109863281,
+                0.0
+            ]
+        },
+        {
+            "title": ". Inference Speedup Results",
+            "level": 1,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 7,
+            "view_mode": "XYZ",
+            "view_pos": [
+                50.111995697021484,
+                373.760009765625,
+                0.0
+            ]
+        },
+        {
+            "title": ". Mask Visualization",
+            "level": 1,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 7,
+            "view_mode": "XYZ",
+            "view_pos": [
+                50.111995697021484,
+                248.2159881591797,
+                0.0
+            ]
+        },
+        {
+            "title": ". Architecture Visualization",
+            "level": 1,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 7,
+            "view_mode": "XYZ",
+            "view_pos": [
+                308.86199951171875,
+                564.197021484375,
+                0.0
+            ]
+        },
+        {
+            "title": ". Conclusion",
+            "level": 0,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 7,
+            "view_mode": "XYZ",
+            "view_pos": [
+                308.86199951171875,
+                341.86297607421875,
+                0.0
+            ]
+        },
+        {
+            "title": ". Acknowledgements",
+            "level": 0,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 7,
+            "view_mode": "XYZ",
+            "view_pos": [
+                308.86199951171875,
+                211.34799194335938,
+                0.0
+            ]
+        },
+        {
+            "title": ". Motivation behind Entropy and Variance Regularizations",
+            "level": 0,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 11,
+            "view_mode": "XYZ",
+            "view_pos": [
+                50.111995697021484,
+                483.01202392578125,
+                0.0
+            ]
+        },
+        {
+            "title": ". Motivation behind Tangent Activation for Variance Regularization",
+            "level": 0,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 13,
+            "view_mode": "XYZ",
+            "view_pos": [
+                50.111995697021484,
+                306.1199951171875,
+                0.0
+            ]
+        },
+        {
+            "title": ". Implementation Details",
+            "level": 0,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 14,
+            "view_mode": "XYZ",
+            "view_pos": [
+                50.111995697021484,
+                160.4739990234375,
+                0.0
+            ]
+        },
+        {
+            "title": ". Additional Attention Map Visualizations",
+            "level": 0,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 14,
+            "view_mode": "XYZ",
+            "view_pos": [
+                308.86199951171875,
+                262.5589904785156,
+                0.0
+            ]
+        },
+        {
+            "title": ". Inductive Bias Analysis",
+            "level": 0,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 15,
+            "view_mode": "XYZ",
+            "view_pos": [
+                50.111995697021484,
+                567.572021484375,
+                0.0
+            ]
+        },
+        {
+            "title": ". Generalization Ability on CNNs",
+            "level": 0,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 15,
+            "view_mode": "XYZ",
+            "view_pos": [
+                50.111995697021484,
+                442.8739929199219,
+                0.0
+            ]
+        }
+    ],
+    "pages": 16,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 8,
+        "equations": {
+            "successful_ocr": 9,
+            "unsuccessful_ocr": 5,
+            "equations": 14
+        }
+    },
+    "postprocess_stats": {
+        "edit": {}
+    }
+}

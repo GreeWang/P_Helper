@@ -9,12 +9,11 @@ def summarize_paper(api_key, api_url, paper_content):
     paper_content_str = "\n".join([f"{key}: {value}" for key, value in paper_content.items()])
     paper_content_str = remove_asterisks(paper_content_str)
 
-    REQUIREMENT = """must answer in this structure:
-    title: [title (the text of the primary title(there is only one # in front of the title), DO NOT CHANGE ORIGINAL TITLE)] summary: [research object] + [main content].
-    JUST like this FORMAT example: title: Sample Title summary: The research object is the effectiveness of the proposed method in the field of computer vision. The main content includes the comparison with other methods and the evaluation of the proposed method on benchmark datasets.
+    REQUIREMENT = """
+    summary including: [research object] + [main content].
+    JUST like this FORMAT example: The research object is the effectiveness of the proposed method in the field of computer vision. The main content includes the comparison with other methods and the evaluation of the proposed method on benchmark datasets.
     requirements:
     words limit: 50-120 words
-    MUST REMOVE all line breaks and *.
     use the least words to summarize. do not give me the detailed part of experiment.
     Try to avoid using the author and research team as the subject, and instead use the research object as the subject to intuitively and succinctly summarize their nature or characteristics.
     take a deep breath!
@@ -22,9 +21,8 @@ def summarize_paper(api_key, api_url, paper_content):
     """
 
     TASK = f"""task:
-    Summarize the following article with emphasis on its research object and main content and method.
+    Summarize the following article on its research object and main content and method.
     Ignore the unimportant parts 
-    find the paper's title
     {paper_content_str} 
     """
 

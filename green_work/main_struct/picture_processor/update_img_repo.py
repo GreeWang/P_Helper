@@ -18,3 +18,5 @@ def transfer_folder_contents(source_folder, destination_folder):
             shutil.copy2(source_path, destination_path)
         elif os.path.isdir(source_path):
             shutil.copytree(source_path, destination_path)
+            
+#transfer_folder_contents('/home/dongpeijie/workspace/marker1/sr/result_of_vit_prune', 'local_repo/img')

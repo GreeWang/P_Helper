@@ -26,7 +26,7 @@ def git_origin(local_path):
     repo.index.commit(commit_message)
 
     origin = repo.remote(name='origin')
-    origin.push()
+    origin.push(force=True)
     
     if os.path.exists(local_path):
         shutil.rmtree(local_path)
