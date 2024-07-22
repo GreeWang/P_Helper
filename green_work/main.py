@@ -25,12 +25,8 @@ def green(folder):
     md_files = find_md_files(folder)
     transfer_folder_contents(folder, f'{local_repo}/img')  
     for md_file in md_files:
-        print(md_file)
-        # print('/n')
         title = find_heading(md_file)
         title = inspect_title(api_key, api_url, title)
-        print(title)
-        print('/n')
         time.sleep(2)
         paper_content = process_markdown(md_file)
         result = summarize_paper(api_key, api_url, paper_content)
