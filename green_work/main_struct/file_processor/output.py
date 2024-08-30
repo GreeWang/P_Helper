@@ -16,17 +16,16 @@ def title_exists_in_file(title, filename):
 
 def parse_response_to_md(title, intro_picture_path, api_response, output_filename="output.md"):
     try:
-        if not api_response.get('choices') or len(api_response['choices']) == 0:
-            raise ValueError("API响应中 'choices' 为空或不存在。")
-    
-        content = api_response['choices'][0].get('message', {}).get('content', '').strip()
-        summary = remove_asterisks(content)  # 将所有内容作为摘要
-        title = title['choices'][0].get('message', {}).get('content', '').strip()
-        title = remove_asterisks(title)
+        # 解析 title（假设 title 仍然是字典，需要从中提取内容）
+        title_content = title['choices'][0].get('message', {}).get('content', '').strip()
+        title_content = remove_asterisks(title_content)
+
+        # 直接使用 api_response 字符串
+        summary = remove_asterisks(api_response.strip())
 
         # 检查标题是否已存在
-        if title_exists_in_file(title, output_filename):
-            print(f"标题 '{title}' 已存在于文件 '{output_filename}' 中，跳过写入。")
+        if title_exists_in_file(title_content, output_filename):
+            print(f"标题 '{title_content}' 已存在于文件 '{output_filename}' 中，跳过写入。")
             return 1
 
         special_marker = "<!-- end_marker -->"
@@ -57,16 +56,14 @@ def parse_response_to_md(title, intro_picture_path, api_response, output_filenam
             
             # 根据图片路径写入内容
             if intro_picture_path is None:
-                md_file.write(f"| {title} |  | {summary} |\n")
+                md_file.write(f"| {title_content} |  | {summary} |\n")
             else:
-                md_file.write(f"| {title} | ![introduction]({intro_picture_path}) | {summary} |\n")
+                md_file.write(f"| {title_content} | ![introduction]({intro_picture_path}) | {summary} |\n")
             
             md_file.write(special_marker)
 
         print(f"Markdown文件 '{output_filename}' 已成功保存。")
     
-    except ValueError as e:
-        print(f"解析错误：{e}")
     except KeyError as e:
         print(f"解析错误：找不到键 {e}。请检查API返回的内容结构。")
     except Exception as e:

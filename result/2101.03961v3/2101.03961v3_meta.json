@@ -1,0 +1,431 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "toc": [
+        {
+            "title": "1 Introduction",
+            "level": 0,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 2,
+            "view_mode": "XYZ",
+            "view_pos": [
+                90.0,
+                701.1380004882812,
+                0.0
+            ]
+        },
+        {
+            "title": "2 Switch Transformer",
+            "level": 0,
+            "is_closed": false,
+            "n_kids": 4,
+            "page_index": 3,
+            "view_mode": "XYZ",
+            "view_pos": [
+                90.0,
+                327.0740051269531,
+                0.0
+            ]
+        },
+        {
+            "title": "2.1 Simplifying Sparse Routing",
+            "level": 1,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 4,
+            "view_mode": "XYZ",
+            "view_pos": [
+                90.0,
+                363.80499267578125,
+                0.0
+            ]
+        },
+        {
+            "title": "2.2 Efficient Sparse Routing",
+            "level": 1,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 5,
+            "view_mode": "XYZ",
+            "view_pos": [
+                90.0,
+                219.95899963378906,
+                0.0
+            ]
+        },
+        {
+            "title": "2.3 Putting It All Together: The Switch Transformer",
+            "level": 1,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 7,
+            "view_mode": "XYZ",
+            "view_pos": [
+                90.0,
+                592.3629760742188,
+                0.0
+            ]
+        },
+        {
+            "title": "2.4 Improved Training and Fine-Tuning Techniques",
+            "level": 1,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 7,
+            "view_mode": "XYZ",
+            "view_pos": [
+                90.0,
+                212.03900146484375,
+                0.0
+            ]
+        },
+        {
+            "title": "3 Scaling Properties",
+            "level": 0,
+            "is_closed": false,
+            "n_kids": 3,
+            "page_index": 10,
+            "view_mode": "XYZ",
+            "view_pos": [
+                90.0,
+                250.427001953125,
+                0.0
+            ]
+        },
+        {
+            "title": "3.1 Scaling Results on a Step-Basis",
+            "level": 1,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 11,
+            "view_mode": "XYZ",
+            "view_pos": [
+                90.0,
+                660.1089477539062,
+                0.0
+            ]
+        },
+        {
+            "title": "3.2 Scaling Results on a Time-Basis",
+            "level": 1,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 12,
+            "view_mode": "XYZ",
+            "view_pos": [
+                90.0,
+                701.1380004882812,
+                0.0
+            ]
+        },
+        {
+            "title": "3.3 Scaling Versus a Larger Dense Model",
+            "level": 1,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 12,
+            "view_mode": "XYZ",
+            "view_pos": [
+                90.0,
+                161.13800048828125,
+                0.0
+            ]
+        },
+        {
+            "title": "4 Downstream Results",
+            "level": 0,
+            "is_closed": false,
+            "n_kids": 3,
+            "page_index": 13,
+            "view_mode": "XYZ",
+            "view_pos": [
+                90.0,
+                341.64202880859375,
+                0.0
+            ]
+        },
+        {
+            "title": "4.1 Fine-Tuning",
+            "level": 1,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 13,
+            "view_mode": "XYZ",
+            "view_pos": [
+                90.0,
+                210.28199768066406,
+                0.0
+            ]
+        },
+        {
+            "title": "4.2 Distillation",
+            "level": 1,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 15,
+            "view_mode": "XYZ",
+            "view_pos": [
+                90.0,
+                305.4460144042969,
+                0.0
+            ]
+        },
+        {
+            "title": "4.3 Multilingual Learning",
+            "level": 1,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 16,
+            "view_mode": "XYZ",
+            "view_pos": [
+                90.0,
+                215.28700256347656,
+                0.0
+            ]
+        },
+        {
+            "title": "5 Designing Models with Data, Model, and Expert-Parallelism",
+            "level": 0,
+            "is_closed": false,
+            "n_kids": 6,
+            "page_index": 17,
+            "view_mode": "XYZ",
+            "view_pos": [
+                90.0,
+                187.15301513671875,
+                0.0
+            ]
+        },
+        {
+            "title": "5.1 Data Parallelism",
+            "level": 1,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 19,
+            "view_mode": "XYZ",
+            "view_pos": [
+                90.0,
+                345.3069763183594,
+                0.0
+            ]
+        },
+        {
+            "title": "5.2 Model Parallelism",
+            "level": 1,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 19,
+            "view_mode": "XYZ",
+            "view_pos": [
+                90.0,
+                236.06100463867188,
+                0.0
+            ]
+        },
+        {
+            "title": "5.3 Model and Data Parallelism",
+            "level": 1,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 20,
+            "view_mode": "XYZ",
+            "view_pos": [
+                90.0,
+                191.8159942626953,
+                0.0
+            ]
+        },
+        {
+            "title": "5.4 Expert and Data Parallelism",
+            "level": 1,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 21,
+            "view_mode": "XYZ",
+            "view_pos": [
+                90.0,
+                701.1380004882812,
+                0.0
+            ]
+        },
+        {
+            "title": "5.5 Expert, Model and Data Parallelism",
+            "level": 1,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 21,
+            "view_mode": "XYZ",
+            "view_pos": [
+                90.0,
+                465.2160339355469,
+                0.0
+            ]
+        },
+        {
+            "title": "5.6 Towards Trillion Parameter Models",
+            "level": 1,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 21,
+            "view_mode": "XYZ",
+            "view_pos": [
+                90.0,
+                255.3679962158203,
+                0.0
+            ]
+        },
+        {
+            "title": "6 Related Work",
+            "level": 0,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 23,
+            "view_mode": "XYZ",
+            "view_pos": [
+                90.0,
+                342.7590026855469,
+                0.0
+            ]
+        },
+        {
+            "title": "7 Discussion",
+            "level": 0,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 24,
+            "view_mode": "XYZ",
+            "view_pos": [
+                90.0,
+                426.0050048828125,
+                0.0
+            ]
+        },
+        {
+            "title": "8 Future Work",
+            "level": 0,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 25,
+            "view_mode": "XYZ",
+            "view_pos": [
+                90.0,
+                577.4930419921875,
+                0.0
+            ]
+        },
+        {
+            "title": "9 Conclusion",
+            "level": 0,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 26,
+            "view_mode": "XYZ",
+            "view_pos": [
+                90.0,
+                564.85400390625,
+                0.0
+            ]
+        },
+        {
+            "title": "A Switch for Attention",
+            "level": 0,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 26,
+            "view_mode": "XYZ",
+            "view_pos": [
+                90.0,
+                231.343994140625,
+                0.0
+            ]
+        },
+        {
+            "title": "B Preventing Token Dropping with No-Token-Left-Behind",
+            "level": 0,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 28,
+            "view_mode": "XYZ",
+            "view_pos": [
+                90.0,
+                701.1380004882812,
+                0.0
+            ]
+        },
+        {
+            "title": "C Encouraging Exploration Across Experts",
+            "level": 0,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 28,
+            "view_mode": "XYZ",
+            "view_pos": [
+                90.0,
+                392.5929870605469,
+                0.0
+            ]
+        },
+        {
+            "title": "D Switch Transformers in Lower Compute Regimes",
+            "level": 0,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 28,
+            "view_mode": "XYZ",
+            "view_pos": [
+                90.0,
+                135.2639923095703,
+                0.0
+            ]
+        },
+        {
+            "title": "E Relation of Upstream to Downstream Model Performance",
+            "level": 0,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 31,
+            "view_mode": "XYZ",
+            "view_pos": [
+                90.0,
+                701.1380004882812,
+                0.0
+            ]
+        },
+        {
+            "title": "F Pseudo Code for Switch Transformers",
+            "level": 0,
+            "is_closed": null,
+            "n_kids": 0,
+            "page_index": 32,
+            "view_mode": "XYZ",
+            "view_pos": [
+                90.0,
+                701.1380004882812,
+                0.0
+            ]
+        }
+    ],
+    "pages": 40,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 3,
+        "table": 13,
+        "equations": {
+            "successful_ocr": 15,
+            "unsuccessful_ocr": 4,
+            "equations": 19
+        }
+    },
+    "postprocess_stats": {
+        "edit": {}
+    }
+}

@@ -2,7 +2,7 @@ import requests
 
 def translate_paper(api_key, api_url, api_response):
     # Convert the filtered content from the dictionary into string form
-    content = api_response['choices'][0].get('message', {}).get('content', '').strip()
+    content = api_response.strip()
     #print(content)
     REQUIREMENT = """requirements:
     

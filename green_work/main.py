@@ -1,5 +1,5 @@
 from .main_struct.file_processor.filter import process_markdown
-from .main_struct.api_prompt.api_prompt import summarize_paper
+from .main_struct.api_prompt.RAG_api import summarize_paper
 from .main_struct.picture_processor.find_picture import get_picture_paths
 from .main_struct.picture_processor.picture_filter import find_largest_resolusion_ratio
 from .main_struct.picture_processor.update_img_repo import transfer_folder_contents
@@ -19,6 +19,7 @@ def green(folder):
     api_url = 'https://vip.yi-zhan.top/v1/chat/completions'
     repo_url = 'https://github.com/GreeWang/summer_reshearch_out_test.git'
     local_repo = 'local_repo'
+    localhost = '0.0.0.0'
     order = need_translation() 
     replace_spaces_in_folder_names(folder)
     temporary_path, temporary_cn_path = git_pull(repo_url, local_repo)
@@ -29,7 +30,7 @@ def green(folder):
         title = inspect_title(api_key, api_url, title)
         time.sleep(2)
         paper_content = process_markdown(md_file)
-        result = summarize_paper(api_key, api_url, paper_content)
+        result = summarize_paper(paper_content, localhost)
         time.sleep(3)
         
         if result is not None:

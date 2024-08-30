@@ -2,8 +2,7 @@ marker vit_prune result --worker 2 --max 18 --min_length 10000
 
 https://github.com/GreeWang/summer_reshearch_out_test.git
 
-
-
+marker examples result --worker 2 --max 18 --min_length 10000
 
 
 FORMAT
