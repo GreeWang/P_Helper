@@ -1,0 +1,192 @@
+[
+  {
+    "id": "p1-3-c1-f1",
+    "category": "method",
+    "text": "基于 marker,支持 PDF 文本抽取、版面识别、阅读顺序恢复、表格格式 化、公式转换、代码块识别、图片抽取和 Markdown 后处理。",
+    "pages": [
+      1
+    ],
+    "quote": "基于 marker,支持 PDF 文本抽取、版面识别、阅读顺序恢复、表格格式 化、公式转换、代码块识别、图片抽取和 Markdown 后处理。",
+    "figure_ids": []
+  },
+  {
+    "id": "p1-3-c1-f2",
+    "category": "method",
+    "text": "OCR 不是简单一刀切调用,而是先检测文本行,再通过启发式判断页面 是否需要 OCR。",
+    "pages": [
+      1
+    ],
+    "quote": "OCR 不是简单一刀切调用,而是先检测文本行,再通过启发式判断页面 是否需要 OCR。",
+    "figure_ids": []
+  },
+  {
+    "id": "p1-3-c1-f3",
+    "category": "method",
+    "text": "支持 surya OCR,也支持 ocrmypdf/Tesseract 后端",
+    "pages": [
+      1
+    ],
+    "quote": "支持 surya OCR,也支持 ocrmypdf/Tesseract 后端;依赖 里也明确包含 surya-ocr。",
+    "figure_ids": []
+  },
+  {
+    "id": "p1-3-c1-f4",
+    "category": "method",
+    "text": "代码里定义了 SUMMARIZER、 QUESTIONER、ANSWERER 三个角色",
+    "pages": [
+      1
+    ],
+    "quote": "代码里定义了 SUMMARIZER、 QUESTIONER、ANSWERER 三个角色:先总结论文,再由提问者检查摘要 完整性,最后由回答者结合知识库生成更完整摘要。",
+    "figure_ids": []
+  },
+  {
+    "id": "p1-3-c1-f5",
+    "category": "method",
+    "text": "先总结论文,再由提问者检查摘要 完整性,最后由回答者结合知识库生成更完整摘要。",
+    "pages": [
+      1
+    ],
+    "quote": "代码里定义了 SUMMARIZER、 QUESTIONER、ANSWERER 三个角色:先总结论文,再由提问者检查摘要 完整性,最后由回答者结合知识库生成更完整摘要。",
+    "figure_ids": []
+  },
+  {
+    "id": "p1-3-c1-f6",
+    "category": "method",
+    "text": "每篇论文会被整理成临时文本,创建知识库、上传文件、等待解析、基于 知识库问答生成摘要,然后删除知识库",
+    "pages": [
+      1
+    ],
+    "quote": "每篇论文会被整理成临时文本,创建知识库、上传文件、等待解析、基于 知识库问答生成摘要,然后删除知识库,避免只靠长上下文硬塞全文。",
+    "figure_ids": []
+  },
+  {
+    "id": "p1-3-c1-f7",
+    "category": "method",
+    "text": "系统会自动提取摘要、引言和方法部分",
+    "pages": [
+      2
+    ],
+    "quote": "Markdown 生成后,系统会自动提取摘要、引言和方法部分,并过滤 reference、acknowledgment、conclusion 等低价值段落,减少摘要噪声。",
+    "figure_ids": []
+  },
+  {
+    "id": "p1-3-c1-f8",
+    "category": "method",
+    "text": "过滤 reference、acknowledgment、conclusion 等低价值段落,减少摘要噪声。",
+    "pages": [
+      2
+    ],
+    "quote": "Markdown 生成后,系统会自动提取摘要、引言和方法部分,并过滤 reference、acknowledgment、conclusion 等低价值段落,减少摘要噪声。",
+    "figure_ids": []
+  },
+  {
+    "id": "p1-3-c1-f9",
+    "category": "contribution",
+    "text": "系统会把论文标题、代表性图片和摘要写入 Markdown 表格",
+    "pages": [
+      2
+    ],
+    "quote": "系统会把论文标题、代表性图片和摘要写入 Markdown 表格,适合生成 论 文 合 集 、 调 研 仓 库 或 阅 读 索 引 。",
+    "figure_ids": []
+  },
+  {
+    "id": "p1-3-c1-f10",
+    "category": "method",
+    "text": "会从论文 introduction 中识别图片引用,并选择较大尺寸图片作为展示图",
+    "pages": [
+      2
+    ],
+    "quote": "会从论文 introduction 中识别图片引用,并选择较大尺寸图片作为展示图, 增 强 生 成 README 的 可 读 性 。",
+    "figure_ids": []
+  },
+  {
+    "id": "p1-3-c1-f11",
+    "category": "contribution",
+    "text": "项目包含中文翻译流程,可生成 README_CN.md",
+    "pages": [
+      2
+    ],
+    "quote": "项目包含中文翻译流程,可生成 README_CN.md,适合双语论文资源库。",
+    "figure_ids": []
+  },
+  {
+    "id": "p1-3-c1-f12",
+    "category": "method",
+    "text": "green_work/main.py 会 拉 取 目 标 仓 库 、 复 制 图 片 、 写 入 README/README_CN,最后 commit 并 push",
+    "pages": [
+      2
+    ],
+    "quote": "green_work/main.py 会 拉 取 目 标 仓 库 、 复 制 图 片 、 写 入 README/README_CN,最后 commit 并 push,实现从 PDF 文件夹到 GitHub 论文索引的自动化发布。",
+    "figure_ids": []
+  },
+  {
+    "id": "p1-3-c1-f13",
+    "category": "contribution",
+    "text": "实现从 PDF 文件夹到 GitHub 论文索引的自动化发布。",
+    "pages": [
+      2
+    ],
+    "quote": "最后 commit 并 push,实现从 PDF 文件夹到 GitHub 论文索引的自动化发布。",
+    "figure_ids": []
+  },
+  {
+    "id": "p1-3-c1-f14",
+    "category": "method",
+    "text": "设计了 Summarizer、Questioner、Answerer 三个角色组成的轻量级 多角色 RAG 工作流",
+    "pages": [
+      3
+    ],
+    "quote": "并设计了 Summarizer、Questioner、Answerer 三个角色组成的轻量级 多角色 RAG 工作流,对论文内容进行摘要、校验和补全。",
+    "figure_ids": []
+  },
+  {
+    "id": "p1-3-c1-f15",
+    "category": "method",
+    "text": "对论文内容进行摘要、校验和补全。",
+    "pages": [
+      3
+    ],
+    "quote": "轻量级 多角色 RAG 工作流,对论文内容进行摘要、校验和补全。",
+    "figure_ids": []
+  },
+  {
+    "id": "p1-3-c1-f16",
+    "category": "contribution",
+    "text": "项目还支持自动筛选 论文代表图、中英文摘要生成",
+    "pages": [
+      3
+    ],
+    "quote": "项目还支持自动筛选 论文代表图、中英文摘要生成,以及将结果写入 README 并同步到 GitHub 仓 库",
+    "figure_ids": []
+  },
+  {
+    "id": "p1-3-c1-f17",
+    "category": "contribution",
+    "text": "将结果写入 README 并同步到 GitHub 仓 库",
+    "pages": [
+      3
+    ],
+    "quote": "以及将结果写入 README 并同步到 GitHub 仓 库,实现从论文 PDF 批量处理到可发布论文索引的端到端自动化流程。",
+    "figure_ids": []
+  },
+  {
+    "id": "p1-3-c1-f18",
+    "category": "contribution",
+    "text": "实现从论文 PDF 批量处理到可发布论文索引的端到端自动化流程。",
+    "pages": [
+      3
+    ],
+    "quote": "实现从论文 PDF 批量处理到可发布论文索引的端到端自动化流程。",
+    "figure_ids": []
+  },
+  {
+    "id": "p1-3-c1-f19",
+    "category": "keyword",
+    "text": "基于 OCR、文档结构解析和多角色 RAG Agent 的 CS 论文自动摘要与 GitHub 知识库发布系统。",
+    "pages": [
+      3
+    ],
+    "quote": "基于 OCR、文档结构解析和多角色 RAG Agent 的 CS 论文自动摘要与 GitHub 知识库发布系统。",
+    "figure_ids": []
+  }
+]

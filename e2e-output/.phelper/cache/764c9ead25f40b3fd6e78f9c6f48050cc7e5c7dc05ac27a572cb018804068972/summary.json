@@ -1,0 +1,168 @@
+{
+  "title": {
+    "text": "原文未明确说明",
+    "evidence_ids": []
+  },
+  "authors": {
+    "text": "原文未明确说明",
+    "evidence_ids": []
+  },
+  "publication_date": {
+    "text": "原文未明确说明",
+    "evidence_ids": []
+  },
+  "venue": {
+    "text": "原文未明确说明",
+    "evidence_ids": []
+  },
+  "one_sentence": {
+    "text": "这是一个结合 OCR、文档结构解析和多角色 RAG Agent 的 CS 论文自动摘要与 GitHub 知识库发布系统。",
+    "evidence_ids": [
+      "p1-3-c1-f19"
+    ]
+  },
+  "research_problem": {
+    "text": "面向 CS 论文从 PDF 内容解析、自动摘要到 GitHub 知识库发布的自动化处理需求。",
+    "evidence_ids": [
+      "p1-3-c1-f18",
+      "p1-3-c1-f19"
+    ]
+  },
+  "core_method": {
+    "text": "系统基于 marker 完成 PDF 文本抽取、版面识别、阅读顺序恢复、表格格式化、公式转换、代码块识别、图片抽取及 Markdown 后处理；先检测文本行并通过启发式方法判断页面是否需要 OCR，支持 surya OCR 和 ocrmypdf/Tesseract 后端。随后提取摘要、引言和方法部分并过滤低价值段落，通过 Summarizer、Questioner、Answerer 构成的多角色 RAG 工作流进行摘要、完整性检查和补全，最后生成 README/README_CN 并同步至 GitHub 仓库。",
+    "evidence_ids": [
+      "p1-3-c1-f1",
+      "p1-3-c1-f2",
+      "p1-3-c1-f3",
+      "p1-3-c1-f4",
+      "p1-3-c1-f5",
+      "p1-3-c1-f6",
+      "p1-3-c1-f7",
+      "p1-3-c1-f8",
+      "p1-3-c1-f12",
+      "p1-3-c1-f14",
+      "p1-3-c1-f15"
+    ]
+  },
+  "contributions": [
+    {
+      "text": "构建了从论文 PDF 批量处理到可发布论文索引的端到端自动化流程。",
+      "evidence_ids": [
+        "p1-3-c1-f18"
+      ]
+    },
+    {
+      "text": "设计了由 Summarizer、Questioner、Answerer 组成的轻量级多角色 RAG 工作流，用于论文内容的摘要、校验与补全。",
+      "evidence_ids": [
+        "p1-3-c1-f14",
+        "p1-3-c1-f15"
+      ]
+    },
+    {
+      "text": "支持自动筛选论文代表图以及生成中英文摘要。",
+      "evidence_ids": [
+        "p1-3-c1-f16"
+      ]
+    },
+    {
+      "text": "能够将论文标题、代表性图片和摘要写入 Markdown 表格，并将结果写入 README 后同步到 GitHub 仓库。",
+      "evidence_ids": [
+        "p1-3-c1-f9",
+        "p1-3-c1-f17"
+      ]
+    },
+    {
+      "text": "提供中文翻译流程，可生成 README_CN.md。",
+      "evidence_ids": [
+        "p1-3-c1-f11"
+      ]
+    },
+    {
+      "text": "实现了从 PDF 文件夹到 GitHub 论文索引的自动化发布。",
+      "evidence_ids": [
+        "p1-3-c1-f12",
+        "p1-3-c1-f13"
+      ]
+    }
+  ],
+  "experiment_design": {
+    "datasets": {
+      "text": "原文未明确说明",
+      "evidence_ids": []
+    },
+    "baselines": {
+      "text": "原文未明确说明",
+      "evidence_ids": []
+    },
+    "metrics": {
+      "text": "原文未明确说明",
+      "evidence_ids": []
+    },
+    "setup": {
+      "text": "原文未明确说明",
+      "evidence_ids": []
+    }
+  },
+  "main_results": [
+    {
+      "text": "原文未明确说明",
+      "evidence_ids": []
+    }
+  ],
+  "limitations": [
+    {
+      "text": "原文未明确说明",
+      "evidence_ids": []
+    }
+  ],
+  "keywords": [
+    {
+      "text": "OCR",
+      "evidence_ids": [
+        "p1-3-c1-f19"
+      ]
+    },
+    {
+      "text": "文档结构解析",
+      "evidence_ids": [
+        "p1-3-c1-f19"
+      ]
+    },
+    {
+      "text": "多角色 RAG Agent",
+      "evidence_ids": [
+        "p1-3-c1-f19"
+      ]
+    },
+    {
+      "text": "CS 论文自动摘要",
+      "evidence_ids": [
+        "p1-3-c1-f19"
+      ]
+    },
+    {
+      "text": "GitHub 知识库发布",
+      "evidence_ids": [
+        "p1-3-c1-f19"
+      ]
+    },
+    {
+      "text": "marker",
+      "evidence_ids": [
+        "p1-3-c1-f1"
+      ]
+    },
+    {
+      "text": "surya OCR",
+      "evidence_ids": [
+        "p1-3-c1-f3"
+      ]
+    },
+    {
+      "text": "Summarizer、Questioner、Answerer",
+      "evidence_ids": [
+        "p1-3-c1-f14"
+      ]
+    }
+  ]
+}

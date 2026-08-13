@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "papers": {
+    "764c9ead25f40b3fd6e78f9c6f48050cc7e5c7dc05ac27a572cb018804068972": {
+      "fingerprint": "764c9ead25f40b3fd6e78f9c6f48050cc7e5c7dc05ac27a572cb018804068972",
+      "source_path": "项目总结.pdf",
+      "aliases": [
+        "项目总结.pdf"
+      ],
+      "status": "success",
+      "stage": "complete",
+      "signature": "ed13101978bd23aca31d21204085aeea027c5646f9181edf93bf0f077875f2eb",
+      "model": "gpt-5.6-sol",
+      "language": "zh",
+      "parser_version": "marker-2",
+      "template_version": "82ff446dfa56",
+      "output_path": "papers/项目总结-764c9ead25f4.md",
+      "processed_at": "2026-08-13T07:41:15.799296+00:00",
+      "last_used_at": "2026-08-13T07:41:15.799296+00:00",
+      "error": null,
+      "index_status": "success",
+      "index_signature": "a84405b0fadbc46acb6f60f59dc85ed3a25bcb0f4dcc91edfd14dca306c49bc0",
+      "index_error": null,
+      "indexed_at": "2026-08-13T03:45:52.275921+00:00"
+    }
+  }
+}

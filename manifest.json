@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "papers": {
+    "c35b21d6ca39aa7cc3b79a705d989f1a6e88b99ab43988d74048799e3db926a3": {
+      "fingerprint": "c35b21d6ca39aa7cc3b79a705d989f1a6e88b99ab43988d74048799e3db926a3",
+      "source_path": "paper.pdf",
+      "aliases": [
+        "paper.pdf"
+      ],
+      "status": "failed",
+      "stage": "parsing",
+      "signature": "75e84efa86f30e512c431785f8004d82075709c4963814ac39b13866d939532e",
+      "model": "gpt-5.6-sol",
+      "language": "zh",
+      "parser_version": "marker-2",
+      "template_version": "1",
+      "output_path": null,
+      "processed_at": "2026-08-13T02:10:59.095540+00:00",
+      "last_used_at": "2026-08-13T02:10:59.095540+00:00",
+      "error": "ParserError: Marker failed to parse paper.pdf: Failed to load document (PDFium: Data format error)."
+    }
+  }
+}

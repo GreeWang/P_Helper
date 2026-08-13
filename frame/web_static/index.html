@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <title>P-Helper</title>
+  <link rel="stylesheet" href="/app.css">
+  <script src="/lucide.min.js" defer></script>
+  <script src="/app.js" defer></script>
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="rail" aria-label="主导航">
+      <div class="brand" aria-label="P-Helper">
+        <span class="brand-mark">P</span>
+        <span class="brand-name">P-Helper</span>
+      </div>
+      <nav class="nav-list">
+        <button class="nav-item active" data-view="library" title="论文库" aria-current="page">
+          <i data-lucide="library-big"></i><span>论文库</span>
+        </button>
+        <button class="nav-item" data-view="ask" title="论文问答">
+          <i data-lucide="message-square-text"></i><span>问答</span>
+        </button>
+        <button class="nav-item" data-view="sessions" title="历史会话">
+          <i data-lucide="history"></i><span>会话</span>
+        </button>
+      </nav>
+      <div class="rail-status" id="model-status">
+        <span class="status-dot"></span><span>检查配置</span>
+      </div>
+    </aside>
+
+    <main class="workspace">
+      <header class="topbar">
+        <div>
+          <p class="eyebrow" id="view-eyebrow">PAPER LIBRARY</p>
+          <h1 id="view-title">论文库</h1>
+        </div>
+        <div class="top-actions">
+          <label class="search-box" id="paper-search-box" for="paper-search">
+            <i data-lucide="search"></i>
+            <input id="paper-search" data-paper-search type="search" placeholder="搜索论文" aria-label="搜索论文" autocomplete="off">
+          </label>
+          <button class="icon-button" id="refresh-button" title="刷新" aria-label="刷新">
+            <i data-lucide="refresh-cw"></i>
+          </button>
+          <button class="primary-button" id="import-button" title="导入 PDF" aria-label="导入 PDF">
+            <i data-lucide="file-up"></i><span>导入 PDF</span>
+          </button>
+        </div>
+      </header>
+
+      <section class="view active" id="library-view">
+        <div class="metrics" aria-label="论文库概览">
+          <div class="metric"><span>论文</span><strong id="paper-count">0</strong></div>
+          <div class="metric"><span>摘要就绪</span><strong id="summary-count">0</strong></div>
+          <div class="metric"><span>可问答</span><strong id="index-count">0</strong></div>
+          <div class="metric"><span>处理中</span><strong id="job-count">0</strong></div>
+        </div>
+        <div class="job-panel" id="job-panel" hidden aria-live="polite"></div>
+        <div class="content-split">
+          <section class="paper-browser" aria-labelledby="paper-list-heading">
+            <label class="search-box mobile-search" for="mobile-paper-search">
+              <i data-lucide="search"></i>
+              <input id="mobile-paper-search" data-paper-search type="search" placeholder="搜索论文" aria-label="搜索论文" autocomplete="off">
+            </label>
+            <div class="section-heading">
+              <h2 id="paper-list-heading">全部论文</h2>
+              <span id="paper-filter-count">0 篇</span>
+            </div>
+            <div class="paper-list" id="paper-list"></div>
+          </section>
+          <aside class="summary-pane" id="summary-pane">
+            <div class="empty-state">
+              <i data-lucide="file-text"></i>
+              <h2>选择一篇论文</h2>
+              <p>摘要、页码证据和代表图片会显示在这里。</p>
+            </div>
+          </aside>
+        </div>
+      </section>
+
+      <section class="view ask-layout" id="ask-view">
+        <aside class="scope-panel" id="scope-panel" aria-label="论文范围">
+          <div class="section-heading">
+            <h2>论文范围</h2>
+            <div class="scope-actions">
+              <button class="text-button" id="clear-scope">清空</button>
+              <button class="icon-button close-scope" id="close-scope" title="关闭论文范围" aria-label="关闭论文范围"><i data-lucide="x"></i></button>
+            </div>
+          </div>
+          <label class="scope-option select-all"><input type="checkbox" id="all-papers" checked><span>整个论文库</span></label>
+          <div id="scope-list" class="scope-list"></div>
+          <div class="retrieval-setting">
+            <label for="top-k">召回证据 <output id="top-k-value">8</output></label>
+            <input id="top-k" type="range" min="1" max="20" value="8">
+          </div>
+        </aside>
+        <section class="conversation">
+          <div class="conversation-toolbar">
+            <div><span class="status-dot ready"></span><span id="conversation-label">新会话</span></div>
+            <div class="conversation-actions">
+              <button class="scope-toggle" id="scope-toggle" title="选择论文范围" aria-label="选择论文范围" aria-controls="scope-panel" aria-expanded="false"><i data-lucide="sliders-horizontal"></i><span>范围</span></button>
+              <button class="icon-button" id="new-chat" title="新建会话" aria-label="新建会话"><i data-lucide="square-pen"></i></button>
+            </div>
+          </div>
+          <div class="messages" id="messages" aria-live="polite">
+            <div class="welcome-message">
+              <div class="welcome-icon"><i data-lucide="scan-search"></i></div>
+              <h2>从论文证据出发</h2>
+              <p>选择论文范围，提出研究方法、实验结果或跨论文比较问题。</p>
+              <div class="prompt-chips">
+                <button data-prompt="这篇论文解决了什么问题？">研究问题</button>
+                <button data-prompt="核心方法有哪些关键步骤？">核心方法</button>
+                <button data-prompt="主要实验结果和局限是什么？">结果与局限</button>
+              </div>
+            </div>
+          </div>
+          <form class="composer" id="ask-form">
+            <textarea id="question" rows="1" placeholder="向论文库提问…" required maxlength="20000"></textarea>
+            <button class="send-button" type="submit" title="发送" aria-label="发送"><i data-lucide="arrow-up"></i></button>
+            <p>回答只使用当前论文库证据，并附 PDF 物理页码。</p>
+          </form>
+        </section>
+      </section>
+
+      <section class="view sessions-view" id="sessions-view">
+        <div class="section-heading"><h2>历史会话</h2><span id="session-count">0 个会话</span></div>
+        <div id="session-list" class="session-list"></div>
+      </section>
+    </main>
+  </div>
+
+  <dialog id="import-dialog" aria-labelledby="import-title">
+    <form method="dialog" class="dialog-shell" id="import-form">
+      <div class="dialog-heading">
+        <div><p class="eyebrow">ADD PAPERS</p><h2 id="import-title">导入论文</h2></div>
+        <button class="icon-button" value="cancel" aria-label="关闭" title="关闭"><i data-lucide="x"></i></button>
+      </div>
+      <div class="mode-switch" role="tablist" aria-label="导入方式">
+        <button type="button" class="active" id="upload-tab" role="tab" aria-selected="true" aria-controls="upload-panel" data-import-mode="upload">上传 PDF</button>
+        <button type="button" id="path-tab" role="tab" aria-selected="false" aria-controls="path-panel" data-import-mode="path" tabindex="-1">本地路径</button>
+      </div>
+      <div class="import-panel active" id="upload-panel" role="tabpanel" aria-labelledby="upload-tab">
+        <label class="drop-zone" id="drop-zone">
+          <i data-lucide="files"></i>
+          <strong>选择或拖入 PDF</strong>
+          <span>支持多选，单批最多 100 个文件</span>
+          <input id="pdf-files" type="file" accept="application/pdf,.pdf" multiple>
+        </label>
+        <div class="file-selection" id="file-selection">尚未选择文件</div>
+      </div>
+      <div class="import-panel" id="path-panel" role="tabpanel" aria-labelledby="path-tab" hidden>
+        <label class="field-label" for="input-path">PDF 文件或目录路径</label>
+        <input class="text-input" id="input-path" type="text" placeholder="/Users/name/Papers">
+      </div>
+      <div class="import-options">
+        <label>输出语言<select id="import-language"><option value="zh">中文</option><option value="en">English</option></select></label>
+        <label>摘要并发<input id="import-workers" type="number" min="1" max="16" value="1"></label>
+        <label class="check-option"><input id="import-force" type="checkbox"><span>强制重新处理</span></label>
+      </div>
+      <div class="dialog-actions">
+        <button class="secondary-button" value="cancel">取消</button>
+        <button class="primary-button dialog-primary" type="submit" value="default"><i data-lucide="play"></i><span>开始处理</span></button>
+      </div>
+    </form>
+  </dialog>
+
+  <div class="scope-backdrop" id="scope-backdrop" hidden></div>
+
+  <div class="toast-region" id="toast-region" aria-live="polite"></div>
+</body>
+</html>

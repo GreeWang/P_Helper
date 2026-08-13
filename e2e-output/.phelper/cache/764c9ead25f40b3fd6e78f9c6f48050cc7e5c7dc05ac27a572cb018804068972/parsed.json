@@ -1,0 +1,258 @@
+{
+  "pages": [
+    {
+      "number": 1,
+      "text": "我扫完了,项目可以概括为:面向 CS 论文的 PDF-to-Markdown +RAG 摘要发 布自动化框架。它不只是 OCR 或格式转换,而是把论文解析、结构清洗、知识 库问答、多角色摘要校验、图片抽取、中英输出和 GitHub 发布串成了一条流水 线。\n\n项目亮点\n\n1.\n\n高质量 PDF/ 论文解析流水线\n\n基于 marker,支持 PDF 文本抽取、版面识别、阅读顺序恢复、表格格式 化、公式转换、代码块识别、图片抽取和 Markdown 后处理。相关实现 集中在 marker/convert.py。\n\n2. 3.\n\nOCR 模块较完整\n\nOCR 不是简单一刀切调用,而是先检测文本行,再通过启发式判断页面 是否需要 OCR。支持 surya OCR,也支持 ocrmypdf/Tesseract 后端;依赖 里也明确包含 surya-ocr。相关文件包括 marker/ocr/recognition.py、 marker/ocr/heuristics.py、docs/install_ocrmypdf.md。\n\n4. 5.\n\n轻量级多角色 Agent/RAG 工作流\n\n你记得的\"多个模型扮演不同角色\"是存在的。代码里定义了 SUMMARIZER、 QUESTIONER、ANSWERER 三个角色:先总结论文,再由提问者检查摘要 完整性,最后由回答者结合知识库生成更完整摘要。\n\n严格说,这可以写成 role-based multi-agent workflow 或 multi-role RAG agent pipeline,虽然它不是复杂自治 Agent,但作为\"多角色协作式摘要 代 理 \" 是 合 理 的 。 核 心 在 green_work/main_struct/rag/agent.py 和 green_work/main_struct/rag/prompt.py。\n\n6. 7.\n\n集成 QAnything 知识库问答\n\n每篇论文会被整理成临时文本,创建知识库、上传文件、等待解析、基于 知识库问答生成摘要,然后删除知识库,避免只靠长上下文硬塞全文。相 关 实 现 见 green_work/main_struct/rag/create_kb.py 、 upload_files.py 、 question_request.py。",
+      "headings": [
+        "项目亮点",
+        "高质量 PDF/ 论文解析流水线",
+        "OCR 模块较完整",
+        "轻量级多角色 Agent/RAG 工作流",
+        "集成 QAnything 知识库问答"
+      ],
+      "blocks": [
+        {
+          "id": "/page/0/Text/0",
+          "kind": "text",
+          "page": 1,
+          "text": "我扫完了,项目可以概括为:面向 CS 论文的 PDF-to-Markdown +RAG 摘要发 布自动化框架。它不只是 OCR 或格式转换,而是把论文解析、结构清洗、知识 库问答、多角色摘要校验、图片抽取、中英输出和 GitHub 发布串成了一条流水 线。"
+        },
+        {
+          "id": "/page/0/SectionHeader/1",
+          "kind": "heading",
+          "page": 1,
+          "text": "项目亮点"
+        },
+        {
+          "id": "/page/0/Text/2",
+          "kind": "text",
+          "page": 1,
+          "text": "1."
+        },
+        {
+          "id": "/page/0/SectionHeader/3",
+          "kind": "heading",
+          "page": 1,
+          "text": "高质量 PDF/ 论文解析流水线"
+        },
+        {
+          "id": "/page/0/Text/4",
+          "kind": "text",
+          "page": 1,
+          "text": "基于 marker,支持 PDF 文本抽取、版面识别、阅读顺序恢复、表格格式 化、公式转换、代码块识别、图片抽取和 Markdown 后处理。相关实现 集中在 marker/convert.py。"
+        },
+        {
+          "id": "/page/0/Text/5",
+          "kind": "text",
+          "page": 1,
+          "text": "2. 3."
+        },
+        {
+          "id": "/page/0/SectionHeader/6",
+          "kind": "heading",
+          "page": 1,
+          "text": "OCR 模块较完整"
+        },
+        {
+          "id": "/page/0/Text/7",
+          "kind": "text",
+          "page": 1,
+          "text": "OCR 不是简单一刀切调用,而是先检测文本行,再通过启发式判断页面 是否需要 OCR。支持 surya OCR,也支持 ocrmypdf/Tesseract 后端;依赖 里也明确包含 surya-ocr。相关文件包括 marker/ocr/recognition.py、 marker/ocr/heuristics.py、docs/install_ocrmypdf.md。"
+        },
+        {
+          "id": "/page/0/Text/8",
+          "kind": "text",
+          "page": 1,
+          "text": "4. 5."
+        },
+        {
+          "id": "/page/0/SectionHeader/9",
+          "kind": "heading",
+          "page": 1,
+          "text": "轻量级多角色 Agent/RAG 工作流"
+        },
+        {
+          "id": "/page/0/Text/10",
+          "kind": "text",
+          "page": 1,
+          "text": "你记得的\"多个模型扮演不同角色\"是存在的。代码里定义了 SUMMARIZER、 QUESTIONER、ANSWERER 三个角色:先总结论文,再由提问者检查摘要 完整性,最后由回答者结合知识库生成更完整摘要。"
+        },
+        {
+          "id": "/page/0/Text/11",
+          "kind": "text",
+          "page": 1,
+          "text": "严格说,这可以写成 role-based multi-agent workflow 或 multi-role RAG agent pipeline,虽然它不是复杂自治 Agent,但作为\"多角色协作式摘要 代 理 \" 是 合 理 的 。 核 心 在 green_work/main_struct/rag/agent.py 和 green_work/main_struct/rag/prompt.py。"
+        },
+        {
+          "id": "/page/0/Text/12",
+          "kind": "text",
+          "page": 1,
+          "text": "6. 7."
+        },
+        {
+          "id": "/page/0/SectionHeader/13",
+          "kind": "heading",
+          "page": 1,
+          "text": "集成 QAnything 知识库问答"
+        },
+        {
+          "id": "/page/0/Text/14",
+          "kind": "text",
+          "page": 1,
+          "text": "每篇论文会被整理成临时文本,创建知识库、上传文件、等待解析、基于 知识库问答生成摘要,然后删除知识库,避免只靠长上下文硬塞全文。相 关 实 现 见 green_work/main_struct/rag/create_kb.py 、 upload_files.py 、 question_request.py。"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "text": "9.\n\n论文内容结构化过滤\n\nMarkdown 生成后,系统会自动提取摘要、引言和方法部分,并过滤 reference、acknowledgment、conclusion 等低价值段落,减少摘要噪声。 相关文件是 green_work/main_struct/file_processor/filter.py。\n\n10. 11.\n\n自动生成项目 / 论文列表型 README\n\n系统会把论文标题、代表性图片和摘要写入 Markdown 表格,适合生成 论 文 合 集 、 调 研 仓 库 或 阅 读 索 引 。 实 现 见 green_work/main_struct/file_processor/output.py。\n\n12. 13.\n\n图片自动抽取与代表图筛选\n\n会从论文 introduction 中识别图片引用,并选择较大尺寸图片作为展示图, 增 强 生 成 README 的 可 读 性 。 相 关 文 件 在 green_work/main_struct/picture_processor。\n\n14. 15.\n\n支持中英文摘要发布\n\n项目包含中文翻译流程,可生成 README_CN.md,适合双语论文资源库。 相关文件在 green_work/translation。\n\n16. 17.\n\n端到端自动发布到 GitHub\n\ngreen_work/main.py 会 拉 取 目 标 仓 库 、 复 制 图 片 、 写 入 README/README_CN,最后 commit 并 push,实现从 PDF 文件夹到 GitHub 论文索引的自动化发布。\n\n18.\n\n可直接用于项目描述的版本\n\n这个项目是一个面向计算机科学论文的自动化 PDF 解析与论文摘要生成框架。 系统基于 Marker 完成 PDF 到 Markdown 的高质量转换,集成 OCR、版面分 析、阅读顺序恢复、表格/公式/图片抽取等能力;随后通过 QAnything 构建临时",
+      "headings": [
+        "论文内容结构化过滤",
+        "自动生成项目 / 论文列表型 README",
+        "图片自动抽取与代表图筛选",
+        "支持中英文摘要发布",
+        "端到端自动发布到 GitHub",
+        "可直接用于项目描述的版本"
+      ],
+      "blocks": [
+        {
+          "id": "/page/1/Text/0",
+          "kind": "text",
+          "page": 2,
+          "text": "9."
+        },
+        {
+          "id": "/page/1/SectionHeader/1",
+          "kind": "heading",
+          "page": 2,
+          "text": "论文内容结构化过滤"
+        },
+        {
+          "id": "/page/1/Text/2",
+          "kind": "text",
+          "page": 2,
+          "text": "Markdown 生成后,系统会自动提取摘要、引言和方法部分,并过滤 reference、acknowledgment、conclusion 等低价值段落,减少摘要噪声。 相关文件是 green_work/main_struct/file_processor/filter.py。"
+        },
+        {
+          "id": "/page/1/Text/3",
+          "kind": "text",
+          "page": 2,
+          "text": "10. 11."
+        },
+        {
+          "id": "/page/1/SectionHeader/4",
+          "kind": "heading",
+          "page": 2,
+          "text": "自动生成项目 / 论文列表型 README"
+        },
+        {
+          "id": "/page/1/Text/5",
+          "kind": "text",
+          "page": 2,
+          "text": "系统会把论文标题、代表性图片和摘要写入 Markdown 表格,适合生成 论 文 合 集 、 调 研 仓 库 或 阅 读 索 引 。 实 现 见 green_work/main_struct/file_processor/output.py。"
+        },
+        {
+          "id": "/page/1/Text/6",
+          "kind": "text",
+          "page": 2,
+          "text": "12. 13."
+        },
+        {
+          "id": "/page/1/SectionHeader/7",
+          "kind": "heading",
+          "page": 2,
+          "text": "图片自动抽取与代表图筛选"
+        },
+        {
+          "id": "/page/1/Text/8",
+          "kind": "text",
+          "page": 2,
+          "text": "会从论文 introduction 中识别图片引用,并选择较大尺寸图片作为展示图, 增 强 生 成 README 的 可 读 性 。 相 关 文 件 在 green_work/main_struct/picture_processor。"
+        },
+        {
+          "id": "/page/1/Text/10",
+          "kind": "text",
+          "page": 2,
+          "text": "14. 15."
+        },
+        {
+          "id": "/page/1/SectionHeader/11",
+          "kind": "heading",
+          "page": 2,
+          "text": "支持中英文摘要发布"
+        },
+        {
+          "id": "/page/1/Text/12",
+          "kind": "text",
+          "page": 2,
+          "text": "项目包含中文翻译流程,可生成 README_CN.md,适合双语论文资源库。 相关文件在 green_work/translation。"
+        },
+        {
+          "id": "/page/1/Text/13",
+          "kind": "text",
+          "page": 2,
+          "text": "16. 17."
+        },
+        {
+          "id": "/page/1/SectionHeader/14",
+          "kind": "heading",
+          "page": 2,
+          "text": "端到端自动发布到 GitHub"
+        },
+        {
+          "id": "/page/1/Text/15",
+          "kind": "text",
+          "page": 2,
+          "text": "green_work/main.py 会 拉 取 目 标 仓 库 、 复 制 图 片 、 写 入 README/README_CN,最后 commit 并 push,实现从 PDF 文件夹到 GitHub 论文索引的自动化发布。"
+        },
+        {
+          "id": "/page/1/Text/16",
+          "kind": "text",
+          "page": 2,
+          "text": "18."
+        },
+        {
+          "id": "/page/1/SectionHeader/17",
+          "kind": "heading",
+          "page": 2,
+          "text": "可直接用于项目描述的版本"
+        },
+        {
+          "id": "/page/1/Text/18",
+          "kind": "text",
+          "page": 2,
+          "text": "这个项目是一个面向计算机科学论文的自动化 PDF 解析与论文摘要生成框架。 系统基于 Marker 完成 PDF 到 Markdown 的高质量转换,集成 OCR、版面分 析、阅读顺序恢复、表格/公式/图片抽取等能力;随后通过 QAnything 构建临时"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "text": "知识库,并设计了 Summarizer、Questioner、Answerer 三个角色组成的轻量级 多角色 RAG 工作流,对论文内容进行摘要、校验和补全。项目还支持自动筛选 论文代表图、中英文摘要生成,以及将结果写入 README 并同步到 GitHub 仓 库,实现从论文 PDF 批量处理到可发布论文索引的端到端自动化流程。\n\n一句话版\n\n基于 OCR、文档结构解析和多角色 RAG Agent 的 CS 论文自动摘要与 GitHub 知识库发布系统。",
+      "headings": [
+        "一句话版"
+      ],
+      "blocks": [
+        {
+          "id": "/page/2/Text/0",
+          "kind": "text",
+          "page": 3,
+          "text": "知识库,并设计了 Summarizer、Questioner、Answerer 三个角色组成的轻量级 多角色 RAG 工作流,对论文内容进行摘要、校验和补全。项目还支持自动筛选 论文代表图、中英文摘要生成,以及将结果写入 README 并同步到 GitHub 仓 库,实现从论文 PDF 批量处理到可发布论文索引的端到端自动化流程。"
+        },
+        {
+          "id": "/page/2/SectionHeader/1",
+          "kind": "heading",
+          "page": 3,
+          "text": "一句话版"
+        },
+        {
+          "id": "/page/2/Text/2",
+          "kind": "text",
+          "page": 3,
+          "text": "基于 OCR、文档结构解析和多角色 RAG Agent 的 CS 论文自动摘要与 GitHub 知识库发布系统。"
+        }
+      ]
+    }
+  ],
+  "figures": [],
+  "parser_version": "marker-2"
+}
